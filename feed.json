@@ -9,5 +9,19 @@
         "name": "Marc"
     },
     "items": [
+        {
+            "id": "https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html",
+            "url": "https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html",
+            "title": "TID 25-03-2020: A youtube channel : Design Course",
+            "summary": "A youtube channel : Design Course It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and explained. I started to watch a lot of its video today and I want to reproduce almost all&hellip;",
+            "content_html": "<p>A youtube channel : <a href=\"#INTERNAL_LINK#/post/null\" title=\"https://www.youtube.com/user/DesignCourse\">Design Course</a></p>\n<p>It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and  explained. I started to watch a lot of its video today and I want to reproduce almost all of them. He makes a lot of design courses and dome design reviews. For everyone interested by webdesign and front end development, I recommend this channel! </p>",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-03-25T14:31:57+01:00",
+            "date_modified": "2020-03-25T14:31:57+01:00"
+        }
     ]
 }

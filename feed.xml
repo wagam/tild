@@ -3,10 +3,31 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2020-03-25T15:29:02+01:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TID 25-03-2020: A youtube channel : Design Course</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html"/>
+        <id>https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html</id>
+
+        <updated>2020-03-25T14:31:57+01:00</updated>
+            <summary>
+                <![CDATA[
+                    A youtube channel : Design Course It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and explained. I started to watch a lot of its video today and I want to reproduce almost all&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>A youtube channel : <a href="#INTERNAL_LINK#/post/null" title="https://www.youtube.com/user/DesignCourse">Design Course</a></p>
+<p>It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and  explained. I started to watch a lot of its video today and I want to reproduce almost all of them. He makes a lot of design courses and dome design reviews. For everyone interested by webdesign and front end development, I recommend this channel! </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
