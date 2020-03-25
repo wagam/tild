@@ -3,7 +3,7 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-25T15:29:02+01:00</updated>
+    <updated>2020-03-25T15:35:34+01:00</updated>
     <author>
         <name>Marc</name>
     </author>
@@ -27,6 +27,29 @@
             <![CDATA[
                 <p>A youtube channel : <a href="#INTERNAL_LINK#/post/null" title="https://www.youtube.com/user/DesignCourse">Design Course</a></p>
 <p>It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and  explained. I started to watch a lot of its video today and I want to reproduce almost all of them. He makes a lot of design courses and dome design reviews. For everyone interested by webdesign and front end development, I recommend this channel! </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>TIL - TID</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-tid.html"/>
+        <id>https://wagam.github.io/tild/til-tid.html</id>
+
+        <updated>2020-03-25T15:35:28+01:00</updated>
+            <summary>
+                <![CDATA[
+                    By this new blog, I want to share what I learn every day and what I discovered. Tht's why you will see two types of articles: TIL for Today I Learnt and TID for Today I Discovered. It has two functions: it &lt;ill help to remember&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>By this new blog, I want to share what I learn every day and what I discovered. Tht's why you will see two types of articles: TIL for Today I Learnt and TID for Today I Discovered. </p>
+<p>It has two functions: it &lt;ill help to remember what I can learn everyday and it wan help some people to discover new things as I discover them too. </p>
+<p> </p>
+<p>Enjoy! </p>
             ]]>
         </content>
     </entry>

@@ -22,6 +22,20 @@
             ],
             "date_published": "2020-03-25T14:31:57+01:00",
             "date_modified": "2020-03-25T14:31:57+01:00"
+        },
+        {
+            "id": "https://wagam.github.io/tild/til-tid.html",
+            "url": "https://wagam.github.io/tild/til-tid.html",
+            "title": "TIL - TID",
+            "summary": "By this new blog, I want to share what I learn every day and what I discovered. Tht's why you will see two types of articles: TIL for Today I Learnt and TID for Today I Discovered. It has two functions: it &lt;ill help to remember&hellip;",
+            "content_html": "<p>By this new blog, I want to share what I learn every day and what I discovered. Tht's why you will see two types of articles: TIL for Today I Learnt and TID for Today I Discovered. </p>\n<p>It has two functions: it &lt;ill help to remember what I can learn everyday and it wan help some people to discover new things as I discover them too. </p>\n<p> </p>\n<p>Enjoy! </p>",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-03-24T15:35:00+01:00",
+            "date_modified": "2020-03-25T15:35:28+01:00"
         }
     ]
 }
