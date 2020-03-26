@@ -3,12 +3,36 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-25T15:35:34+01:00</updated>
+    <updated>2020-03-26T12:16:31+01:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TID 26-03-2020 30 seconds of code</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html"/>
+        <id>https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html</id>
+
+        <updated>2020-03-26T12:16:17+01:00</updated>
+            <summary>
+                <![CDATA[
+                    A snippet code website: 30 seconds of code This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>A snippet code website: <a href="https://www.30secondsofcode.org/" title="https://www.30secondsofcode.org/">30 seconds of code</a></p>
+<p>This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help with its small pieces of code. </p>
+<p> I like:  Code snippets easily available</p>
+<p> </p>
+<p>Enjoy!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TID 25-03-2020: A youtube channel : Design Course</title>
         <author>

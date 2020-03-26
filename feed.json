@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html",
+            "url": "https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html",
+            "title": "TID 26-03-2020 30 seconds of code",
+            "summary": "A snippet code website: 30 seconds of code This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help&hellip;",
+            "content_html": "<p>A snippet code website: <a href=\"https://www.30secondsofcode.org/\" title=\"https://www.30secondsofcode.org/\">30 seconds of code</a></p>\n<p>This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help with its small pieces of code. </p>\n<p> I like:  Code snippets easily available</p>\n<p> </p>\n<p>Enjoy!</p>",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-03-26T12:16:17+01:00",
+            "date_modified": "2020-03-26T12:16:17+01:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html",
             "url": "https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html",
             "title": "TID 25-03-2020: A youtube channel : Design Course",
