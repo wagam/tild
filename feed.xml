@@ -3,7 +3,7 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-26T13:37:05+01:00</updated>
+    <updated>2020-03-26T13:49:03+01:00</updated>
     <author>
         <name>Marc</name>
     </author>
@@ -17,14 +17,16 @@
         <link href="https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html"/>
         <id>https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html</id>
 
-        <updated>2020-03-26T12:16:17+01:00</updated>
+        <updated>2020-03-26T13:48:58+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/3/time-731110_1280.jpg" alt="" />
                     A snippet code website: 30 seconds of code This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/3/time-731110_1280.jpg" alt="" />
                 <p>A snippet code website: <a href="https://www.30secondsofcode.org/" title="https://www.30secondsofcode.org/">30 seconds of code</a></p>
 <p>This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help with its small pieces of code. </p>
 <p> I like:  Code snippets easily available</p>
