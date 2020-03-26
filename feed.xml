@@ -3,7 +3,7 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-26T12:16:31+01:00</updated>
+    <updated>2020-03-26T13:37:05+01:00</updated>
     <author>
         <name>Marc</name>
     </author>
@@ -55,21 +55,23 @@
         </content>
     </entry>
     <entry>
-        <title>TIL - TID</title>
+        <title>TIL - TID - What and why</title>
         <author>
             <name>Marc</name>
         </author>
         <link href="https://wagam.github.io/tild/til-tid.html"/>
         <id>https://wagam.github.io/tild/til-tid.html</id>
 
-        <updated>2020-03-25T15:35:28+01:00</updated>
+        <updated>2020-03-26T13:36:51+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/2/typewriter-801921_1280.jpg" alt="typewriter" />
                     By this new blog, I want to share what I learn every day and what I discovered. Tht's why you will see two types of articles: TIL for Today I Learnt and TID for Today I Discovered. It has two functions: it &lt;ill help to remember&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/2/typewriter-801921_1280.jpg" alt="typewriter" />
                 <p>By this new blog, I want to share what I learn every day and what I discovered. Tht's why you will see two types of articles: TIL for Today I Learnt and TID for Today I Discovered. </p>
 <p>It has two functions: it &lt;ill help to remember what I can learn everyday and it wan help some people to discover new things as I discover them too. </p>
 <p> </p>
