@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
+            "url": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
+            "title": "TID 27-03-2020 NovoResume",
+            "summary": "I needed to recreate a resume and I didn't want to do it with MS Word or with Latex as I did before. As a web developer, i was almost sure some web resources exist. After googling for few minutes, I discovered Novo Resume . The website&hellip;",
+            "content_html": "<p>I needed to recreate a resume and I didn't want to do it with MS Word or with Latex as I did before. As a web developer, i was almost sure some web resources exist. After googling for few minutes, I discovered <a href=\"https://novoresume.com/\">Novo Resume</a> .</p>\n<p>The website is very user friendly and I created my resume in less than an hour with a good result. You can choose differents templates and customize them with differents colors or fonts. Some of them are free, other can be used only with an upgraded account.</p>\n<p>Upgraded account brings more templates and more customization. You still can try all these option to your free account but you will not be able to download your resume. </p>\n<p>All your changes are automatically saved and you can download your resume in PDF. </p>\n<p>It is easy! You should try it !</p>",
+            "image": "https://wagam.github.io/tild/media/posts/4/cv-3726428_1280.jpg",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-03-27T09:23:47+01:00",
+            "date_modified": "2020-03-27T09:23:47+01:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html",
             "url": "https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html",
             "title": "TID 26-03-2020 30 seconds of code",
