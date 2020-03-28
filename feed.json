@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html",
+            "url": "https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html",
+            "title": "TIL 28-03-2020 clip-path CSS animation",
+            "summary": "I learn how to use clip path in CSS with animations to give my website a better user experience. I followed this course from DesignCourse channel: You can find the corresponding Codepen here: https://codepen.io/designcourse/pen/vqPWbJ Enjoy!",
+            "content_html": "<p>I learn how to use clip path  in CSS with animations to give my website a better user experience.</p>\n<p>I followed this course from <a href=\"https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow\">DesignCourse</a> channel: </p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/F4kJXbaunUg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>You can find the corresponding Codepen here: <a href=\"https://codepen.io/designcourse/pen/vqPWbJ\">https://codepen.io/designcourse/pen/vqPWbJ</a></p>\n<p> </p>\n<p>Enjoy!</p>",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-03-28T17:31:25+01:00",
+            "date_modified": "2020-03-28T17:31:25+01:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
             "url": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
             "title": "TID 27-03-2020 NovoResume",

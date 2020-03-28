@@ -3,12 +3,37 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-27T10:44:50+01:00</updated>
+    <updated>2020-03-28T17:31:32+01:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TIL 28-03-2020 clip-path CSS animation</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html"/>
+        <id>https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html</id>
+
+        <updated>2020-03-28T17:31:25+01:00</updated>
+            <summary>
+                <![CDATA[
+                    I learn how to use clip path in CSS with animations to give my website a better user experience. I followed this course from DesignCourse channel: You can find the corresponding Codepen here: https://codepen.io/designcourse/pen/vqPWbJ Enjoy!
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I learn how to use clip path  in CSS with animations to give my website a better user experience.</p>
+<p>I followed this course from <a href="https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow">DesignCourse</a> channel: </p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/F4kJXbaunUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p>You can find the corresponding Codepen here: <a href="https://codepen.io/designcourse/pen/vqPWbJ">https://codepen.io/designcourse/pen/vqPWbJ</a></p>
+<p> </p>
+<p>Enjoy!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TID 27-03-2020 NovoResume</title>
         <author>
