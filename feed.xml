@@ -3,7 +3,7 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-28T17:31:32+01:00</updated>
+    <updated>2020-03-30T08:28:59+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
@@ -29,6 +29,33 @@
 <p>I followed this course from <a href="https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow">DesignCourse</a> channel: </p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/F4kJXbaunUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
 <p>You can find the corresponding Codepen here: <a href="https://codepen.io/designcourse/pen/vqPWbJ">https://codepen.io/designcourse/pen/vqPWbJ</a></p>
+<p> </p>
+<p>Enjoy!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>TIL 30-03-2020 Git push --atomic</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html"/>
+        <id>https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html</id>
+
+        <updated>2020-03-30T08:28:54+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/6/graphene-3193185_1280.jpg" alt="" />
+                    For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/6/graphene-3193185_1280.jpg" alt="" />
+                <p>For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped me a lot: </p>
+<pre><code class="language-ShellSession">git push --atomic origin branch1 branch2 ...<br></code></pre>
+<p> The idea with this command is to have only one commit doing multiple things. It can help to merge, tag and add a note in a single command for example. </p>
+<p>For more informations, you can read this <a href="https://github.blog/2015-04-30-git-2-4-atomic-pushes-push-to-deploy-and-more/">github</a> article. </p>
 <p> </p>
 <p>Enjoy!</p>
             ]]>

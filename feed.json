@@ -24,6 +24,21 @@
             "date_modified": "2020-03-28T17:31:25+01:00"
         },
         {
+            "id": "https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html",
+            "url": "https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html",
+            "title": "TIL 30-03-2020 Git push --atomic",
+            "summary": "For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped&hellip;",
+            "content_html": "<p>For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped me a lot: </p>\n<pre><code class=\"language-ShellSession\">git push --atomic origin branch1 branch2 ...<br></code></pre>\n<p> The idea with this command is to have only one commit doing multiple things. It can help to merge, tag and add a note in a single command for example. </p>\n<p>For more informations, you can read this <a href=\"https://github.blog/2015-04-30-git-2-4-atomic-pushes-push-to-deploy-and-more/\">github</a> article. </p>\n<p> </p>\n<p>Enjoy!</p>",
+            "image": "https://wagam.github.io/tild/media/posts/6/graphene-3193185_1280.jpg",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-03-27T10:44:13+01:00",
+            "date_modified": "2020-03-30T08:28:54+02:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
             "url": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
             "title": "TID 27-03-2020 NovoResume",
