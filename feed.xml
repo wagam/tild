@@ -3,7 +3,7 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-31T08:15:21+02:00</updated>
+    <updated>2020-03-31T08:16:53+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
@@ -69,14 +69,16 @@
         <link href="https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html"/>
         <id>https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html</id>
 
-        <updated>2020-03-28T17:31:25+01:00</updated>
+        <updated>2020-03-31T08:16:47+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/5/paperclip-168336_1280.jpg" alt="" />
                     I learn how to use clip path in CSS with animations to give my website a better user experience. I followed this course from DesignCourse channel: You can find the corresponding Codepen here: https://codepen.io/designcourse/pen/vqPWbJ Enjoy!
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/5/paperclip-168336_1280.jpg" alt="" />
                 <p>I learn how to use clip path  in CSS with animations to give my website a better user experience.</p>
 <p>I followed this course from <a href="https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow">DesignCourse</a> channel: </p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/F4kJXbaunUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
