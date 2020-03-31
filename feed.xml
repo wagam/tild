@@ -3,12 +3,37 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-03-31T08:11:45+02:00</updated>
+    <updated>2020-03-31T08:15:21+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TID 31-03-2020 Design Valley</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/tid-31-03-2020.html"/>
+        <id>https://wagam.github.io/tild/tid-31-03-2020.html</id>
+
+        <updated>2020-03-31T08:29:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/7/zion-park-139012_1280.jpg" alt="" />
+                    New day, new website ! Today I discovered Design Valley, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/7/zion-park-139012_1280.jpg" alt="" />
+                <p>New day, new website ! Today I discovered <a href="https://www.designvalley.club/">Design Valley</a>, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed and easy to find resources you need. </p>
+<p>For any of your needs about webdesign, you should take a look. On my side, it is already bookmaked !! </p>
+<p> </p>
+<p>Enjoy!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TIL 30-03-2020 Git push --atomic</title>
         <author>
@@ -31,31 +56,6 @@
 <pre><code class="language-ShellSession">git push --atomic origin branch1 branch2 ...<br></code></pre>
 <p> The idea with this command is to have only one commit doing multiple things. It can help to merge, tag and add a note in a single command for example. </p>
 <p>For more informations, you can read this <a href="https://github.blog/2015-04-30-git-2-4-atomic-pushes-push-to-deploy-and-more/">github</a> article. </p>
-<p> </p>
-<p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TID 31-03-2020 Design Valley</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tid-31-03-2020.html"/>
-        <id>https://wagam.github.io/tild/tid-31-03-2020.html</id>
-
-        <updated>2020-03-31T08:11:38+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/7/zion-park-139012_1280.jpg" alt="" />
-                    New day, new website ! Today I discovered Design Valley, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/7/zion-park-139012_1280.jpg" alt="" />
-                <p>New day, new website ! Today I discovered <a href="https://www.designvalley.club/">Design Valley</a>, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed and easy to find resources you need. </p>
-<p>For any of your needs about webdesign, you should take a look. On my side, it is already bookmaked !! </p>
 <p> </p>
 <p>Enjoy!</p>
             ]]>
