@@ -3,12 +3,36 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-01T08:00:29+02:00</updated>
+    <updated>2020-04-01T10:46:09+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TID 01-04-2020 Tarantino&#x27;s reviews (no joke)</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/tid-tarantinos-reviews.html"/>
+        <id>https://wagam.github.io/tild/tid-tarantinos-reviews.html</id>
+
+        <updated>2020-04-01T10:46:06+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg" alt="" />
+                    If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You will have&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg" alt="" />
+                <p>If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You  will have reviews on old obscurs movies and more recent or better known too. Long enough to have a good point of view of what he thinks about a movie, I found interesting to see himself sharing his love for them.</p>
+<p> </p>
+<p>Enjoy !</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TID 31-03-2020 Design Valley</title>
         <author>
@@ -31,30 +55,6 @@
 <p>For any of your needs about webdesign, you should take a look. On my side, it is already bookmaked !! </p>
 <p> </p>
 <p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TID 01-04-2020 Tarantino&#x27;s reviews (no joke)</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tid-tarantinos-reviews.html"/>
-        <id>https://wagam.github.io/tild/tid-tarantinos-reviews.html</id>
-
-        <updated>2020-04-01T08:00:19+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg" alt="" />
-                    If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You will have&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg" alt="" />
-                <p>If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You  will have reviews on old obscurs movies and more recent or better known too. Long enough to have a good point of view of what he thinks about a movie, I found interesting to see himself sharing his love for them.</p>
-<p> </p>
-<p>Enjoy !</p>
             ]]>
         </content>
     </entry>
