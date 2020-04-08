@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/tid-08-02-2020-coolers.html",
+            "url": "https://wagam.github.io/tild/tid-08-02-2020-coolers.html",
+            "title": "TID 08-02-2020 Coolers",
+            "summary": "When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found Coolers. You can create your own&hellip;",
+            "content_html": "<p>When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found Coolers. You can create your own palette or choose one created by the community. You can filter these palettes by name, by popularity and more. </p>\n<p>I like this generator because it is an easy tool to use with infinite possibilities for your newt website or blog or design project.</p>\n<p> </p>\n<p>Enjoy!</p>",
+            "image": "https://wagam.github.io/tild/media/posts/12/green-1738220_1280.jpg",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-08T14:10:19+02:00",
+            "date_modified": "2020-04-08T14:10:19+02:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html",
             "url": "https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html",
             "title": "TIS 07-02-2020 My favourite youtubers #2",
@@ -143,21 +158,6 @@
             ],
             "date_published": "2020-03-26T12:16:17+01:00",
             "date_modified": "2020-03-27T10:31:52+01:00"
-        },
-        {
-            "id": "https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html",
-            "url": "https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html",
-            "title": "TID 25-03-2020: A youtube channel : Design Course",
-            "summary": "A youtube channel : Design Course It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and explained. I started to watch a lot of its video today and I want to reproduce almost all&hellip;",
-            "content_html": "<p>A youtube channel : <a href=\"#INTERNAL_LINK#/post/null\" title=\"https://www.youtube.com/user/DesignCourse\">Design Course</a></p>\n<p>It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and  explained. I started to watch a lot of its video today and I want to reproduce almost all of them. He makes a lot of design courses and dome design reviews. For everyone interested by webdesign and front end development, I recommend this channel! </p>",
-            "image": "https://wagam.github.io/tild/media/posts/1/ux-788002_1280.jpg",
-            "author": {
-                "name": "Marc"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-03-25T14:31:57+01:00",
-            "date_modified": "2020-03-27T10:31:39+01:00"
         }
     ]
 }

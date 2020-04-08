@@ -3,12 +3,37 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-07T09:45:57+02:00</updated>
+    <updated>2020-04-08T14:10:23+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TID 08-02-2020 Coolers</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/tid-08-02-2020-coolers.html"/>
+        <id>https://wagam.github.io/tild/tid-08-02-2020-coolers.html</id>
+
+        <updated>2020-04-08T14:10:19+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/12/green-1738220_1280.jpg" alt="" />
+                    When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found Coolers. You can create your own&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/12/green-1738220_1280.jpg" alt="" />
+                <p>When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found Coolers. You can create your own palette or choose one created by the community. You can filter these palettes by name, by popularity and more. </p>
+<p>I like this generator because it is an easy tool to use with infinite possibilities for your newt website or blog or design project.</p>
+<p> </p>
+<p>Enjoy!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TIS 07-02-2020 My favourite youtubers #2</title>
         <author>
@@ -264,29 +289,6 @@
 <p> I like:  Code snippets easily available</p>
 <p> </p>
 <p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TID 25-03-2020: A youtube channel : Design Course</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html"/>
-        <id>https://wagam.github.io/tild/tid-25-03-2020-a-youtube-channel-design-course.html</id>
-
-        <updated>2020-03-27T10:31:39+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/1/ux-788002_1280.jpg" alt="" />
-                    A youtube channel : Design Course It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and explained. I started to watch a lot of its video today and I want to reproduce almost all&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/1/ux-788002_1280.jpg" alt="" />
-                <p>A youtube channel : <a href="#INTERNAL_LINK#/post/null" title="https://www.youtube.com/user/DesignCourse">Design Course</a></p>
-<p>It is a very good youtube channel with amazing content. Every video is clear and concise. I like how everything is displayed and  explained. I started to watch a lot of its video today and I want to reproduce almost all of them. He makes a lot of design courses and dome design reviews. For everyone interested by webdesign and front end development, I recommend this channel! </p>
             ]]>
         </content>
     </entry>
