@@ -10,11 +10,26 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/til-how-to-keep-macos-desktops-order.html",
+            "url": "https://wagam.github.io/tild/til-how-to-keep-macos-desktops-order.html",
+            "title": "TIL how to keep macOS desktops order",
+            "summary": "I use a macbook almost every day, and I have a lot of apps opened all the time : iTerm2, Firefox, Spotify, Spark, Slack, VSCode and more... I like to have them displayed on differents \"desktops\" to switch between apps fast with my mouse. Until&hellip;",
+            "content_html": "<p>I use a macbook almost every day, and I have a lot of apps opened all the time : iTerm2, Firefox, Spotify, Spark, Slack, VSCode and more... I like to have them displayed on differents \"desktops\" to switch between apps fast with my mouse. Until today, desktops moved sometimes from one position to another. Desktop 2 switched with Desktop 4 or another according a kind of random pattern I didn't identify. </p>\n<p>Finally, I decided to search a little on the internet and I found the guilty : Mission Control.</p>\n<p>To enable/disable desktops reordering, go to </p>\n<pre>System Prefs &gt; Mission Control</pre>\n<p>And check/uncheck </p>\n<pre>Automatically rearrange Spaces based on most recent use.</pre>\n<p><img src=\"https://wagam.github.io/tild/media/posts/13/Capture-decran-2020-04-09-a-09.28.20.png\" alt=\"\" width=\"1582\" height=\"982\"></p>\n<p>Thanks to <a href=\"https://apple.stackexchange.com/a/214349\">Tetsujin </a></p>\n<p>Enjoy!</p>",
+            "image": "https://wagam.github.io/tild/media/posts/13/cockpit-79525_1280.jpg",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-09T09:31:21+02:00",
+            "date_modified": "2020-04-09T09:31:21+02:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/tid-08-02-2020-coolers.html",
             "url": "https://wagam.github.io/tild/tid-08-02-2020-coolers.html",
-            "title": "TID 08-02-2020 Coolers",
+            "title": "TID Coolers",
             "summary": "When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found Coolers. You can create your own&hellip;",
-            "content_html": "<p>When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found Coolers. You can create your own palette or choose one created by the community. You can filter these palettes by name, by popularity and more. </p>\n<p>I like this generator because it is an easy tool to use with infinite possibilities for your newt website or blog or design project.</p>\n<p> </p>\n<p>Enjoy!</p>",
+            "content_html": "<p>When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found <a href=\"https://coolers.co\">Coolers</a>. You can create your own palette or choose one created by the community. You can filter these palettes by name, by popularity and more. </p>\n<p>I like this generator because it is an easy tool to use with infinite possibilities for your newt website or blog or design project.</p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/12/green-1738220_1280.jpg",
             "author": {
                 "name": "Marc"
@@ -22,12 +37,12 @@
             "tags": [
             ],
             "date_published": "2020-04-08T14:10:19+02:00",
-            "date_modified": "2020-04-08T14:10:19+02:00"
+            "date_modified": "2020-04-09T09:33:39+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html",
             "url": "https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html",
-            "title": "TIS 07-02-2020 My favourite youtubers #2",
+            "title": "TIS My favourite youtubers #2",
             "summary": "Today a new list of my favourite youtubers. Last time, I shared a list about movies and TV shows. This time, it is about science: Enjoy!",
             "content_html": "<p>Today a new list of my favourite youtubers. Last time, I shared a list about movies and TV shows. This time, it is about science: </p>\n<h2 id=\"mcetoc_1e59pj6v40\">Astronogeek</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k96FXjEQXK4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe> </p>\n<h2 id=\"mcetoc_1e59pj9gb1\">Computerphile</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/89A4jGvaaKk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe> </p>\n<h2 id=\"mcetoc_1e59pjdhl2\">dirtyBiology</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bM7AOBxqjnE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<h2 id=\"mcetoc_1e59pjk9v3\">e-penser</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hJe5MDMWOaU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<h2 id=\"mcetoc_1e59pjmr64\">scinema</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/P1VW4ZhPENA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe> </p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/11/milky-way-1023340_1280.jpg",
@@ -37,12 +52,12 @@
             "tags": [
             ],
             "date_published": "2020-04-07T09:45:32+02:00",
-            "date_modified": "2020-04-07T09:45:50+02:00"
+            "date_modified": "2020-04-09T09:33:06+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html",
             "url": "https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html",
-            "title": "TID 03-04-2020 Product Hunt Time Machine",
+            "title": "TID Product Hunt Time Machine",
             "summary": "To discover new things, a lot of web resources exist. You can use google to have informations on new trends, follow your favourite tech news blog or subscribe to RSS feed via Feedly for example. Few months ago, I discovered Product Hunt, where people and&hellip;",
             "content_html": "<p>To discover new things, a lot of web resources exist. You can use google to have informations on new trends, follow your favourite tech news blog or subscribe to RSS feed via Feedly for example. Few months ago, I discovered <a href=\"https://www.producthunt.com\">Product Hunt</a>, where people and companies can submit their new product and the community vote everyday for the best new one. </p>\n<p>A lot of products are interesting but sometimes, only the most voted one is really interesting (we can't disrupt everything everyday, right?) That's why exists <a href=\"https://timemachine.betamode.dev/\">Product Hunt Time Machine</a>, compiling all the <em>\"most voted hunt from every day since Product Hunt records began</em>\".  </p>\n<p>With this list, there is no reason to discover new things easily! </p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/10/car-3249989_1280.jpg",
@@ -52,12 +67,12 @@
             "tags": [
             ],
             "date_published": "2020-04-03T08:07:24+02:00",
-            "date_modified": "2020-04-03T08:25:59+02:00"
+            "date_modified": "2020-04-09T09:31:41+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/tid-02-04-2020-open-source-builders.html",
             "url": "https://wagam.github.io/tild/tid-02-04-2020-open-source-builders.html",
-            "title": "TIS 02-04-2020 My favourite youtubers #1",
+            "title": "TIS My favourite youtubers #1",
             "summary": "Today, I try a new \"Today I ...\" possibility with a fresh new Today I Share section. I follow a lot of youtube channels for entertainement and to improve my skills. For this first TIS, I will share my favourite French entertainement channels about movies and&hellip;",
             "content_html": "<p>Today, I try a new \"Today I ...\" possibility with a fresh new Today I Share section. </p>\n<p>I follow a lot of youtube channels for entertainement and to improve my skills. For this first TIS, I will share my favourite French entertainement channels about movies and TV shows: </p>\n<h2 id=\"mcetoc_1e4sp2ujb0\">#1: le Fossoyeur de films</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rxSRvg7PfOw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><a href=\"https://www.youtube.com/user/deadwattsofficiel\">Channel</a></p>\n<h2 id=\"mcetoc_1e4spch8u1\">#2: le ciné-club de M.bobine</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VM7IHKhXmU8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><a href=\"https://www.youtube.com/channel/UCMAOGbM65D7VzbVTmpKeKgQ\">Channel</a></p>\n<h2 id=\"mcetoc_1e4spckoj2\">#3: Critique de Zoltan (critique masquée)</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pKDkfr-v6Hs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><a href=\"https://www.youtube.com/channel/UC-jROY0ULN2ANIzq4ABg5IQ\">Channel</a></p>\n<h2 id=\"mcetoc_1e4spcnpl3\">#4: Misterfox</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/M_DSyVyS75c\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><a href=\"https://www.youtube.com/user/TheRealMisterfox\">Channel</a></p>\n<h2 id=\"mcetoc_1e4spcqla4\">#5: Nexus VI</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GeOKQUXhDYc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><a href=\"https://www.youtube.com/channel/UC8-UThnwzBI5ApzVG4MY7VQ\">Channel</a></p>\n<h2 id=\"mcetoc_1e4spctlm5\">#6: PILOTE la chronique série</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w_Z7rBwRueU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><a href=\"https://www.youtube.com/user/glitchmoviespr/featured\">Channel</a></p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/9/popcorn-1433327_1280.jpg",
@@ -67,12 +82,12 @@
             "tags": [
             ],
             "date_published": "2020-04-02T08:18:00+02:00",
-            "date_modified": "2020-04-02T15:35:10+02:00"
+            "date_modified": "2020-04-09T09:31:45+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/tid-tarantinos-reviews.html",
             "url": "https://wagam.github.io/tild/tid-tarantinos-reviews.html",
-            "title": "TID 01-04-2020 Tarantino&#x27;s reviews (no joke)",
+            "title": "TID Tarantino&#x27;s reviews (no joke)",
             "summary": "If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You will have&hellip;",
             "content_html": "<p>If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You  will have reviews on old obscurs movies and more recent or better known too. Long enough to have a good point of view of what he thinks about a movie, I found interesting to see himself sharing his love for them.</p>\n<p> </p>\n<p>Enjoy !</p>",
             "image": "https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg",
@@ -82,12 +97,12 @@
             "tags": [
             ],
             "date_published": "2020-04-01T08:27:00+02:00",
-            "date_modified": "2020-04-01T10:46:06+02:00"
+            "date_modified": "2020-04-09T09:31:50+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/tid-31-03-2020.html",
             "url": "https://wagam.github.io/tild/tid-31-03-2020.html",
-            "title": "TID 31-03-2020 Design Valley",
+            "title": "TID Design Valley",
             "summary": "New day, new website ! Today I discovered Design Valley, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed&hellip;",
             "content_html": "<p>New day, new website ! Today I discovered <a href=\"https://www.designvalley.club/\">Design Valley</a>, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed and easy to find resources you need. </p>\n<p>For any of your needs about webdesign, you should take a look. On my side, it is already bookmaked !! </p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/7/zion-park-139012_1280.jpg",
@@ -97,12 +112,12 @@
             "tags": [
             ],
             "date_published": "2020-03-31T08:29:00+02:00",
-            "date_modified": "2020-03-31T08:29:00+02:00"
+            "date_modified": "2020-04-09T09:31:55+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html",
             "url": "https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html",
-            "title": "TIL 30-03-2020 Git push --atomic",
+            "title": "TIL Git push --atomic",
             "summary": "For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped&hellip;",
             "content_html": "<p>For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped me a lot: </p>\n<pre><code class=\"language-ShellSession\">git push --atomic origin branch1 branch2 ...<br></code></pre>\n<p> The idea with this command is to have only one commit doing multiple things. It can help to merge, tag and add a note in a single command for example. </p>\n<p>For more informations, you can read this <a href=\"https://github.blog/2015-04-30-git-2-4-atomic-pushes-push-to-deploy-and-more/\">github</a> article. </p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/6/graphene-3193185_1280.jpg",
@@ -112,12 +127,12 @@
             "tags": [
             ],
             "date_published": "2020-03-30T10:44:00+02:00",
-            "date_modified": "2020-03-31T08:09:41+02:00"
+            "date_modified": "2020-04-09T09:32:00+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html",
             "url": "https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html",
-            "title": "TIL 28-03-2020 clip-path CSS animation",
+            "title": "TIL clip-path CSS animation",
             "summary": "I learn how to use clip path in CSS with animations to give my website a better user experience. I followed this course from DesignCourse channel: You can find the corresponding Codepen here: https://codepen.io/designcourse/pen/vqPWbJ Enjoy!",
             "content_html": "<p>I learn how to use clip path  in CSS with animations to give my website a better user experience.</p>\n<p>I followed this course from <a href=\"https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow\">DesignCourse</a> channel: </p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/F4kJXbaunUg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>You can find the corresponding Codepen here: <a href=\"https://codepen.io/designcourse/pen/vqPWbJ\">https://codepen.io/designcourse/pen/vqPWbJ</a></p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/5/paperclip-168336_1280.jpg",
@@ -127,12 +142,12 @@
             "tags": [
             ],
             "date_published": "2020-03-28T17:31:25+01:00",
-            "date_modified": "2020-03-31T08:16:47+02:00"
+            "date_modified": "2020-04-09T09:32:06+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
             "url": "https://wagam.github.io/tild/tid-27-03-2020-novoresume.html",
-            "title": "TID 27-03-2020 NovoResume",
+            "title": "TID NovoResume",
             "summary": "I needed to recreate a resume and I didn't want to do it with MS Word or with Latex as I did before. As a web developer, i was almost sure some web resources exist. After googling for few minutes, I discovered Novo Resume . The website&hellip;",
             "content_html": "<p>I needed to recreate a resume and I didn't want to do it with MS Word or with Latex as I did before. As a web developer, i was almost sure some web resources exist. After googling for few minutes, I discovered <a href=\"https://novoresume.com/\">Novo Resume</a> .</p>\n<p>The website is very user friendly and I created my resume in less than an hour with a good result. You can choose differents templates and customize them with differents colors or fonts. Some of them are free, other can be used only with an upgraded account.</p>\n<p>Upgraded account brings more templates and more customization. You still can try all these option to your free account but you will not be able to download your resume. </p>\n<p>All your changes are automatically saved and you can download your resume in PDF. </p>\n<p>It is easy! You should try it !</p>",
             "image": "https://wagam.github.io/tild/media/posts/4/cv-3726428_1280.jpg",
@@ -142,22 +157,7 @@
             "tags": [
             ],
             "date_published": "2020-03-27T09:23:47+01:00",
-            "date_modified": "2020-03-27T10:31:59+01:00"
-        },
-        {
-            "id": "https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html",
-            "url": "https://wagam.github.io/tild/tid-26-03-2020-30-seconds-of-code.html",
-            "title": "TID 26-03-2020 30 seconds of code",
-            "summary": "A snippet code website: 30 seconds of code This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help&hellip;",
-            "content_html": "<p>A snippet code website: <a href=\"https://www.30secondsofcode.org/\" title=\"https://www.30secondsofcode.org/\">30 seconds of code</a></p>\n<p>This website provides cool and easy code snippets that can be helpful for web developments. Sometimes, you need CSS animations for a button, a React dropdown or a method to find index with Python. This website can help with its small pieces of code. </p>\n<p> I like:  Code snippets easily available</p>\n<p> </p>\n<p>Enjoy!</p>",
-            "image": "https://wagam.github.io/tild/media/posts/3/time-731110_1280.jpg",
-            "author": {
-                "name": "Marc"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-03-26T12:16:17+01:00",
-            "date_modified": "2020-03-27T10:31:52+01:00"
+            "date_modified": "2020-04-09T09:32:31+02:00"
         }
     ]
 }
