@@ -3,12 +3,45 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-16T09:27:41+02:00</updated>
+    <updated>2020-04-17T12:08:47+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TIL how to listen to a Hubspot submit form event</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-how-to-listen-to-a-hubspot-submit-form-event.html"/>
+        <id>https://wagam.github.io/tild/til-how-to-listen-to-a-hubspot-submit-form-event.html</id>
+
+        <updated>2020-04-17T12:08:26+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/15/adler-2918835_1280.jpg" alt="" />
+                    For my current project, I need to send data to hubspot via a form. This form is managed by Hubspot and injected in my code during runtime. I cannot modify the sumit button behaviour. I dealt with this problem by listening the click event when&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/15/adler-2918835_1280.jpg" alt="" />
+                <p>For my current project, I need to send data to hubspot via a form. This form is managed by Hubspot and injected in my code during runtime. I cannot modify the sumit button behaviour. </p>
+<p>I dealt with this problem by listening the click event when someone clicks on the submit button. </p>
+<p>I did it like this in my React component : </p>
+<div>
+<pre><code>class Compo extends React.Component {
+</code><br><code>componentDidMount() {</code><br><code>// add eventListener after 1 sec to be sure hubspot form is loaded</code><br><code>  setTimeout(() =&gt;window.addEventListener('message', this.handleSubmitHubspotForm), 1000);</code><br><code>} </code><br><br><code>componentWillUnmount() {</code><br><code>//remove event listener when we change to a new page</code><br><code>window.removeEventListener('message', this.handleSubmitHubspotForm)</code><br><code>}</code><br><br><code>// method to catch event triggered by the submit button</code><br><code>handleSubmitHubspotForm = (event: any) =&gt; {</code><br><code>const decodedAndShortenUrl=decodeURI(urlToRedirect);</code><br><br><code>if (event.data.type==='hsFormCallback'&amp;&amp;event.data.eventName==='onFormSubmit') {</code><br><br><code>// redirect to a new URL when event is catch</code><br><code>setTimeout(() =&gt;Router.push(decodedAndShortenUrl), 5000)</code><br><code>};</code><br><br><code>}<br></code></pre>
+<div>Nothing hard here but a quick snippet code reminder for a next time. </div>
+<div> </div>
+<div>Hope it helps. </div>
+<div> </div>
+<div>Enjoy! </div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TID Notion</title>
         <author>
@@ -263,33 +296,6 @@
 <pre><code class="language-ShellSession">git push --atomic origin branch1 branch2 ...<br></code></pre>
 <p> The idea with this command is to have only one commit doing multiple things. It can help to merge, tag and add a note in a single command for example. </p>
 <p>For more informations, you can read this <a href="https://github.blog/2015-04-30-git-2-4-atomic-pushes-push-to-deploy-and-more/">github</a> article. </p>
-<p> </p>
-<p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TIL clip-path CSS animation</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html"/>
-        <id>https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html</id>
-
-        <updated>2020-04-09T09:32:06+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/5/paperclip-168336_1280.jpg" alt="" />
-                    I learn how to use clip path in CSS with animations to give my website a better user experience. I followed this course from DesignCourse channel: You can find the corresponding Codepen here: https://codepen.io/designcourse/pen/vqPWbJ Enjoy!
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/5/paperclip-168336_1280.jpg" alt="" />
-                <p>I learn how to use clip path  in CSS with animations to give my website a better user experience.</p>
-<p>I followed this course from <a href="https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow">DesignCourse</a> channel: </p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/F4kJXbaunUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p>You can find the corresponding Codepen here: <a href="https://codepen.io/designcourse/pen/vqPWbJ">https://codepen.io/designcourse/pen/vqPWbJ</a></p>
 <p> </p>
 <p>Enjoy!</p>
             ]]>

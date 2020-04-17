@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/til-how-to-listen-to-a-hubspot-submit-form-event.html",
+            "url": "https://wagam.github.io/tild/til-how-to-listen-to-a-hubspot-submit-form-event.html",
+            "title": "TIL how to listen to a Hubspot submit form event",
+            "summary": "For my current project, I need to send data to hubspot via a form. This form is managed by Hubspot and injected in my code during runtime. I cannot modify the sumit button behaviour. I dealt with this problem by listening the click event when&hellip;",
+            "content_html": "<p>For my current project, I need to send data to hubspot via a form. This form is managed by Hubspot and injected in my code during runtime. I cannot modify the sumit button behaviour. </p>\n<p>I dealt with this problem by listening the click event when someone clicks on the submit button. </p>\n<p>I did it like this in my React component : </p>\n<div>\n<pre><code>class Compo extends React.Component {\n</code><br><code>componentDidMount() {</code><br><code>// add eventListener after 1 sec to be sure hubspot form is loaded</code><br><code>  setTimeout(() =&gt;window.addEventListener('message', this.handleSubmitHubspotForm), 1000);</code><br><code>} </code><br><br><code>componentWillUnmount() {</code><br><code>//remove event listener when we change to a new page</code><br><code>window.removeEventListener('message', this.handleSubmitHubspotForm)</code><br><code>}</code><br><br><code>// method to catch event triggered by the submit button</code><br><code>handleSubmitHubspotForm = (event: any) =&gt; {</code><br><code>const decodedAndShortenUrl=decodeURI(urlToRedirect);</code><br><br><code>if (event.data.type==='hsFormCallback'&amp;&amp;event.data.eventName==='onFormSubmit') {</code><br><br><code>// redirect to a new URL when event is catch</code><br><code>setTimeout(() =&gt;Router.push(decodedAndShortenUrl), 5000)</code><br><code>};</code><br><br><code>}<br></code></pre>\n<div>Nothing hard here but a quick snippet code reminder for a next time. </div>\n<div> </div>\n<div>Hope it helps. </div>\n<div> </div>\n<div>Enjoy! </div>\n</div>",
+            "image": "https://wagam.github.io/tild/media/posts/15/adler-2918835_1280.jpg",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-17T12:05:32+02:00",
+            "date_modified": "2020-04-17T12:08:26+02:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/tid-notion.html",
             "url": "https://wagam.github.io/tild/tid-notion.html",
             "title": "TID Notion",
@@ -143,21 +158,6 @@
             ],
             "date_published": "2020-03-30T10:44:00+02:00",
             "date_modified": "2020-04-09T09:32:00+02:00"
-        },
-        {
-            "id": "https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html",
-            "url": "https://wagam.github.io/tild/til-28-03-2020-clip-path-css-animation.html",
-            "title": "TIL clip-path CSS animation",
-            "summary": "I learn how to use clip path in CSS with animations to give my website a better user experience. I followed this course from DesignCourse channel: You can find the corresponding Codepen here: https://codepen.io/designcourse/pen/vqPWbJ Enjoy!",
-            "content_html": "<p>I learn how to use clip path  in CSS with animations to give my website a better user experience.</p>\n<p>I followed this course from <a href=\"https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow\">DesignCourse</a> channel: </p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/F4kJXbaunUg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>You can find the corresponding Codepen here: <a href=\"https://codepen.io/designcourse/pen/vqPWbJ\">https://codepen.io/designcourse/pen/vqPWbJ</a></p>\n<p> </p>\n<p>Enjoy!</p>",
-            "image": "https://wagam.github.io/tild/media/posts/5/paperclip-168336_1280.jpg",
-            "author": {
-                "name": "Marc"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-03-28T17:31:25+01:00",
-            "date_modified": "2020-04-09T09:32:06+02:00"
         }
     ]
 }
