@@ -3,12 +3,41 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-17T12:08:47+02:00</updated>
+    <updated>2020-04-20T09:44:19+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TIL how to rename mass files with zsh</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html"/>
+        <id>https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html</id>
+
+        <updated>2020-04-20T09:44:10+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/16/files-1614223_1280.jpg" alt="" />
+                    Zsh is now the default terminal for macos, replacing well known bash. I needed to rename a lot of files in a project, displayed in multiples and various subfolders. I learnt a new command names zmv that comes directly with zsh and that is similar&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/16/files-1614223_1280.jpg" alt="" />
+                <p>Zsh is now the default terminal for macos, replacing well known bash. </p>
+<p>I needed to rename a  lot of files in a project, displayed in multiples and various subfolders. </p>
+<p>I learnt a new command names zmv that comes directly with zsh and that is similar in mv command in various ways. </p>
+<p>To rename all your files in your current folder you can type:</p>
+<p><code>$ zmv '(*).scss' '$1.scss'</code></p>
+<p>To rename all your files in subfolders too you can type</p>
+<p><code>$  zmv '(**/)(*).scss' '$1/$2.module.scss'</code></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TIL how to listen to a Hubspot submit form event</title>
         <author>
@@ -269,33 +298,6 @@
                     <img src="https://wagam.github.io/tild/media/posts/7/zion-park-139012_1280.jpg" alt="" />
                 <p>New day, new website ! Today I discovered <a href="https://www.designvalley.club/">Design Valley</a>, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed and easy to find resources you need. </p>
 <p>For any of your needs about webdesign, you should take a look. On my side, it is already bookmaked !! </p>
-<p> </p>
-<p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TIL Git push --atomic</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html"/>
-        <id>https://wagam.github.io/tild/til-29-03-2020-git-push-atomic.html</id>
-
-        <updated>2020-04-09T09:32:00+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/6/graphene-3193185_1280.jpg" alt="" />
-                    For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/6/graphene-3193185_1280.jpg" alt="" />
-                <p>For continuous integration puropses, I need to be sure some of my commits are all done together. If some fail for some reasons, I have to reconciliate everything t o be sure it is ok. After some research, I found a git command that helped me a lot: </p>
-<pre><code class="language-ShellSession">git push --atomic origin branch1 branch2 ...<br></code></pre>
-<p> The idea with this command is to have only one commit doing multiple things. It can help to merge, tag and add a note in a single command for example. </p>
-<p>For more informations, you can read this <a href="https://github.blog/2015-04-30-git-2-4-atomic-pushes-push-to-deploy-and-more/">github</a> article. </p>
 <p> </p>
 <p>Enjoy!</p>
             ]]>
