@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/til-how-to-change-url-without-updating-page-in-browser.html",
+            "url": "https://wagam.github.io/tild/til-how-to-change-url-without-updating-page-in-browser.html",
+            "title": "TIL how to change url without updating page in browser",
+            "summary": "In a Next.JS / React project, I needed to update query params in URL to match values updated in a form. But I didn't want to reload and refresh the page completely because when the form is sent, the answers are updated by an API&hellip;",
+            "content_html": "<p>In a Next.JS / React project, I needed to update query params in URL to match values updated in a form. But I didn't want to reload and refresh the page completely because when the form is sent, the answers are updated by an API call. </p>\n<p>Typically, you are suppose to use </p>\n<p><code>Router.push(url, as, {shallow: true})</code></p>\n<p>But it does not worked in my case after various attempts.</p>\n<p>After some research on the internets, I found a solution from <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/History/pushState\">Mozilla</a> : history state</p>\n<p>To add history state in the browser without reloading the page, it exists this method: </p>\n<code> history.pushState(state,title,url)</code>\n<p>In my case, I updated only the URL param </p>\n<p><code> history.pushState({},'',newURLWithQueryParams)</code></p>\n<p>Hope it can help</p>\n<p> </p>\n<p>Enjoy!</p>",
+            "image": "https://wagam.github.io/tild/media/posts/17/white-ceramic-teacup-with-saucer-near-two-books-above-gray-904616.jpg",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-22T10:03:07+02:00",
+            "date_modified": "2020-04-22T10:03:07+02:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html",
             "url": "https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html",
             "title": "TIL how to rename mass files with zsh",
@@ -143,21 +158,6 @@
             ],
             "date_published": "2020-04-01T08:27:00+02:00",
             "date_modified": "2020-04-09T09:31:50+02:00"
-        },
-        {
-            "id": "https://wagam.github.io/tild/tid-31-03-2020.html",
-            "url": "https://wagam.github.io/tild/tid-31-03-2020.html",
-            "title": "TID Design Valley",
-            "summary": "New day, new website ! Today I discovered Design Valley, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed&hellip;",
-            "content_html": "<p>New day, new website ! Today I discovered <a href=\"https://www.designvalley.club/\">Design Valley</a>, an interesting website displaying a curated list of web design tools. In the list, you can find websites color palettes helpers, mockup tools, UI kits an dmany more. I like how simple it is displayed and easy to find resources you need. </p>\n<p>For any of your needs about webdesign, you should take a look. On my side, it is already bookmaked !! </p>\n<p> </p>\n<p>Enjoy!</p>",
-            "image": "https://wagam.github.io/tild/media/posts/7/zion-park-139012_1280.jpg",
-            "author": {
-                "name": "Marc"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-03-31T08:29:00+02:00",
-            "date_modified": "2020-04-09T09:31:55+02:00"
         }
     ]
 }
