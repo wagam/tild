@@ -3,12 +3,45 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-22T10:03:12+02:00</updated>
+    <updated>2020-04-27T15:00:49+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TIL how to reset a HTML input file</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-how-to-reset-a-html-input-file.html"/>
+        <id>https://wagam.github.io/tild/til-how-to-reset-a-html-input-file.html</id>
+            <category term="Web development"/>
+            <category term="TIL"/>
+
+        <updated>2020-04-27T14:23:59+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/18/dual-screen-1745705_1280.png" alt="" />
+                    When you want to upload a file, you often want to see a preview before sending it. To do this, I show a preview in a canvas. But even if I close the preview part, the input is still loaded with the selected filed. So,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/18/dual-screen-1745705_1280.png" alt="" />
+                <p>When you want to upload a file, you often want to see a preview before sending it. To do this, I show a preview in a canvas. But even if I close the preview part, the input is still loaded with the selected filed. So, if you try to show again the preview of the same file, no event is catched in the onChange method.</p>
+<p>I found a solution to do this with a single line of code.</p>
+<p>To reset a HTML input file :</p>
+<pre>&lt;input id="fileuploader" type="file" onChange={(event)=&gt; handleFileUpdate(event)}/&gt;</pre>
+<p>It can be easily done by replacing its value by an empty string :</p>
+<pre>document.getElementById("fileuploader").value = "";</pre>
+<p>This way, if you try to upload again the same file, becuase the value has changed, the onChange event is catched and you can preview it again.</p>
+<p>Hope it helps!</p>
+<p> </p>
+<p>Enjoy! </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TIL how to change url without updating page in browser</title>
         <author>
@@ -16,8 +49,10 @@
         </author>
         <link href="https://wagam.github.io/tild/til-how-to-change-url-without-updating-page-in-browser.html"/>
         <id>https://wagam.github.io/tild/til-how-to-change-url-without-updating-page-in-browser.html</id>
+            <category term="Web development"/>
+            <category term="TIL"/>
 
-        <updated>2020-04-22T10:03:07+02:00</updated>
+        <updated>2020-04-27T14:26:48+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://wagam.github.io/tild/media/posts/17/white-ceramic-teacup-with-saucer-near-two-books-above-gray-904616.jpg" alt="" />
@@ -29,13 +64,13 @@
                     <img src="https://wagam.github.io/tild/media/posts/17/white-ceramic-teacup-with-saucer-near-two-books-above-gray-904616.jpg" alt="" />
                 <p>In a Next.JS / React project, I needed to update query params in URL to match values updated in a form. But I didn't want to reload and refresh the page completely because when the form is sent, the answers are updated by an API call. </p>
 <p>Typically, you are suppose to use </p>
-<p><code>Router.push(url, as, {shallow: true})</code></p>
+<pre><code>Router.push(url, as, {shallow: true})</code></pre>
 <p>But it does not worked in my case after various attempts.</p>
 <p>After some research on the internets, I found a solution from <a href="https://developer.mozilla.org/en-US/docs/Web/API/History/pushState">Mozilla</a> : history state</p>
 <p>To add history state in the browser without reloading the page, it exists this method: </p>
-<code> history.pushState(state,title,url)</code>
+<pre><code> history.pushState(state,title,url)</code></pre>
 <p>In my case, I updated only the URL param </p>
-<p><code> history.pushState({},'',newURLWithQueryParams)</code></p>
+<pre><code> history.pushState({},'',newURLWithQueryParams)</code></pre>
 <p>Hope it can help</p>
 <p> </p>
 <p>Enjoy!</p>
@@ -50,7 +85,7 @@
         <link href="https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html"/>
         <id>https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html</id>
 
-        <updated>2020-04-20T09:44:10+02:00</updated>
+        <updated>2020-04-27T14:27:06+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://wagam.github.io/tild/media/posts/16/files-1614223_1280.jpg" alt="" />
@@ -64,9 +99,9 @@
 <p>I needed to rename a  lot of files in a project, displayed in multiples and various subfolders. </p>
 <p>I learnt a new command names zmv that comes directly with zsh and that is similar in mv command in various ways. </p>
 <p>To rename all your files in your current folder you can type:</p>
-<p><code>$ zmv '(*).scss' '$1.scss'</code></p>
+<pre><code>$ zmv '(*).scss' '$1.scss'</code></pre>
 <p>To rename all your files in subfolders too you can type</p>
-<p><code>$  zmv '(**/)(*).scss' '$1/$2.module.scss'</code></p>
+<pre><code>$  zmv '(**/)(*).scss' '$1/$2.module.scss'</code></pre>
 <p> </p>
             ]]>
         </content>
@@ -78,6 +113,8 @@
         </author>
         <link href="https://wagam.github.io/tild/til-how-to-listen-to-a-hubspot-submit-form-event.html"/>
         <id>https://wagam.github.io/tild/til-how-to-listen-to-a-hubspot-submit-form-event.html</id>
+            <category term="Web development"/>
+            <category term="TIL"/>
 
         <updated>2020-04-17T12:08:26+02:00</updated>
             <summary>
@@ -111,6 +148,8 @@
         </author>
         <link href="https://wagam.github.io/tild/tid-notion.html"/>
         <id>https://wagam.github.io/tild/tid-notion.html</id>
+            <category term="TID"/>
+            <category term="Personal development"/>
 
         <updated>2020-04-16T09:27:27+02:00</updated>
             <summary>
@@ -136,6 +175,7 @@
         </author>
         <link href="https://wagam.github.io/tild/til-how-to-keep-macos-desktops-order.html"/>
         <id>https://wagam.github.io/tild/til-how-to-keep-macos-desktops-order.html</id>
+            <category term="TIL"/>
 
         <updated>2020-04-09T09:31:21+02:00</updated>
             <summary>
@@ -166,6 +206,9 @@
         </author>
         <link href="https://wagam.github.io/tild/tid-08-02-2020-coolers.html"/>
         <id>https://wagam.github.io/tild/tid-08-02-2020-coolers.html</id>
+            <category term="Webdesign"/>
+            <category term="UI"/>
+            <category term="TID"/>
 
         <updated>2020-04-09T09:33:39+02:00</updated>
             <summary>
@@ -191,6 +234,8 @@
         </author>
         <link href="https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html"/>
         <id>https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html</id>
+            <category term="Youtube"/>
+            <category term="TIS"/>
 
         <updated>2020-04-09T09:33:06+02:00</updated>
             <summary>
@@ -225,6 +270,7 @@
         </author>
         <link href="https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html"/>
         <id>https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html</id>
+            <category term="TID"/>
 
         <updated>2020-04-09T09:31:41+02:00</updated>
             <summary>
@@ -251,6 +297,9 @@
         </author>
         <link href="https://wagam.github.io/tild/tid-02-04-2020-open-source-builders.html"/>
         <id>https://wagam.github.io/tild/tid-02-04-2020-open-source-builders.html</id>
+            <category term="movies"/>
+            <category term="Youtube"/>
+            <category term="TIS"/>
 
         <updated>2020-04-09T09:31:45+02:00</updated>
             <summary>
@@ -284,30 +333,6 @@
 <p><a href="https://www.youtube.com/user/glitchmoviespr/featured">Channel</a></p>
 <p> </p>
 <p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TID Tarantino&#x27;s reviews (no joke)</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tid-tarantinos-reviews.html"/>
-        <id>https://wagam.github.io/tild/tid-tarantinos-reviews.html</id>
-
-        <updated>2020-04-09T09:31:50+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg" alt="" />
-                    If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You will have&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg" alt="" />
-                <p>If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You  will have reviews on old obscurs movies and more recent or better known too. Long enough to have a good point of view of what he thinks about a movie, I found interesting to see himself sharing his love for them.</p>
-<p> </p>
-<p>Enjoy !</p>
             ]]>
         </content>
     </entry>

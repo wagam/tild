@@ -10,26 +10,45 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/til-how-to-reset-a-html-input-file.html",
+            "url": "https://wagam.github.io/tild/til-how-to-reset-a-html-input-file.html",
+            "title": "TIL how to reset a HTML input file",
+            "summary": "When you want to upload a file, you often want to see a preview before sending it. To do this, I show a preview in a canvas. But even if I close the preview part, the input is still loaded with the selected filed. So,&hellip;",
+            "content_html": "<p>When you want to upload a file, you often want to see a preview before sending it. To do this, I show a preview in a canvas. But even if I close the preview part, the input is still loaded with the selected filed. So, if you try to show again the preview of the same file, no event is catched in the onChange method.</p>\n<p>I found a solution to do this with a single line of code.</p>\n<p>To reset a HTML input file :</p>\n<pre>&lt;input id=\"fileuploader\" type=\"file\" onChange={(event)=&gt; handleFileUpdate(event)}/&gt;</pre>\n<p>It can be easily done by replacing its value by an empty string :</p>\n<pre>document.getElementById(\"fileuploader\").value = \"\";</pre>\n<p>This way, if you try to upload again the same file, becuase the value has changed, the onChange event is catched and you can preview it again.</p>\n<p>Hope it helps!</p>\n<p> </p>\n<p>Enjoy! </p>",
+            "image": "https://wagam.github.io/tild/media/posts/18/dual-screen-1745705_1280.png",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+                   "Web development",
+                   "TIL"
+            ],
+            "date_published": "2020-04-27T14:22:45+02:00",
+            "date_modified": "2020-04-27T14:23:59+02:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/til-how-to-change-url-without-updating-page-in-browser.html",
             "url": "https://wagam.github.io/tild/til-how-to-change-url-without-updating-page-in-browser.html",
             "title": "TIL how to change url without updating page in browser",
             "summary": "In a Next.JS / React project, I needed to update query params in URL to match values updated in a form. But I didn't want to reload and refresh the page completely because when the form is sent, the answers are updated by an API&hellip;",
-            "content_html": "<p>In a Next.JS / React project, I needed to update query params in URL to match values updated in a form. But I didn't want to reload and refresh the page completely because when the form is sent, the answers are updated by an API call. </p>\n<p>Typically, you are suppose to use </p>\n<p><code>Router.push(url, as, {shallow: true})</code></p>\n<p>But it does not worked in my case after various attempts.</p>\n<p>After some research on the internets, I found a solution from <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/History/pushState\">Mozilla</a> : history state</p>\n<p>To add history state in the browser without reloading the page, it exists this method: </p>\n<code> history.pushState(state,title,url)</code>\n<p>In my case, I updated only the URL param </p>\n<p><code> history.pushState({},'',newURLWithQueryParams)</code></p>\n<p>Hope it can help</p>\n<p> </p>\n<p>Enjoy!</p>",
+            "content_html": "<p>In a Next.JS / React project, I needed to update query params in URL to match values updated in a form. But I didn't want to reload and refresh the page completely because when the form is sent, the answers are updated by an API call. </p>\n<p>Typically, you are suppose to use </p>\n<pre><code>Router.push(url, as, {shallow: true})</code></pre>\n<p>But it does not worked in my case after various attempts.</p>\n<p>After some research on the internets, I found a solution from <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/History/pushState\">Mozilla</a> : history state</p>\n<p>To add history state in the browser without reloading the page, it exists this method: </p>\n<pre><code> history.pushState(state,title,url)</code></pre>\n<p>In my case, I updated only the URL param </p>\n<pre><code> history.pushState({},'',newURLWithQueryParams)</code></pre>\n<p>Hope it can help</p>\n<p> </p>\n<p>Enjoy!</p>",
             "image": "https://wagam.github.io/tild/media/posts/17/white-ceramic-teacup-with-saucer-near-two-books-above-gray-904616.jpg",
             "author": {
                 "name": "Marc"
             },
             "tags": [
+                   "Web development",
+                   "TIL"
             ],
             "date_published": "2020-04-22T10:03:07+02:00",
-            "date_modified": "2020-04-22T10:03:07+02:00"
+            "date_modified": "2020-04-27T14:26:48+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html",
             "url": "https://wagam.github.io/tild/til-how-to-rename-mass-files-with-zsh.html",
             "title": "TIL how to rename mass files with zsh",
             "summary": "Zsh is now the default terminal for macos, replacing well known bash. I needed to rename a lot of files in a project, displayed in multiples and various subfolders. I learnt a new command names zmv that comes directly with zsh and that is similar&hellip;",
-            "content_html": "<p>Zsh is now the default terminal for macos, replacing well known bash. </p>\n<p>I needed to rename a  lot of files in a project, displayed in multiples and various subfolders. </p>\n<p>I learnt a new command names zmv that comes directly with zsh and that is similar in mv command in various ways. </p>\n<p>To rename all your files in your current folder you can type:</p>\n<p><code>$ zmv '(*).scss' '$1.scss'</code></p>\n<p>To rename all your files in subfolders too you can type</p>\n<p><code>$  zmv '(**/)(*).scss' '$1/$2.module.scss'</code></p>\n<p> </p>",
+            "content_html": "<p>Zsh is now the default terminal for macos, replacing well known bash. </p>\n<p>I needed to rename a  lot of files in a project, displayed in multiples and various subfolders. </p>\n<p>I learnt a new command names zmv that comes directly with zsh and that is similar in mv command in various ways. </p>\n<p>To rename all your files in your current folder you can type:</p>\n<pre><code>$ zmv '(*).scss' '$1.scss'</code></pre>\n<p>To rename all your files in subfolders too you can type</p>\n<pre><code>$  zmv '(**/)(*).scss' '$1/$2.module.scss'</code></pre>\n<p> </p>",
             "image": "https://wagam.github.io/tild/media/posts/16/files-1614223_1280.jpg",
             "author": {
                 "name": "Marc"
@@ -37,7 +56,7 @@
             "tags": [
             ],
             "date_published": "2020-04-18T15:48:00+02:00",
-            "date_modified": "2020-04-20T09:44:10+02:00"
+            "date_modified": "2020-04-27T14:27:06+02:00"
         },
         {
             "id": "https://wagam.github.io/tild/til-how-to-listen-to-a-hubspot-submit-form-event.html",
@@ -50,6 +69,8 @@
                 "name": "Marc"
             },
             "tags": [
+                   "Web development",
+                   "TIL"
             ],
             "date_published": "2020-04-17T12:05:32+02:00",
             "date_modified": "2020-04-17T12:08:26+02:00"
@@ -65,6 +86,8 @@
                 "name": "Marc"
             },
             "tags": [
+                   "TID",
+                   "Personal development"
             ],
             "date_published": "2020-04-16T09:26:51+02:00",
             "date_modified": "2020-04-16T09:27:27+02:00"
@@ -80,6 +103,7 @@
                 "name": "Marc"
             },
             "tags": [
+                   "TIL"
             ],
             "date_published": "2020-04-09T09:31:21+02:00",
             "date_modified": "2020-04-09T09:31:21+02:00"
@@ -95,6 +119,9 @@
                 "name": "Marc"
             },
             "tags": [
+                   "Webdesign",
+                   "UI",
+                   "TID"
             ],
             "date_published": "2020-04-08T14:10:19+02:00",
             "date_modified": "2020-04-09T09:33:39+02:00"
@@ -110,6 +137,8 @@
                 "name": "Marc"
             },
             "tags": [
+                   "Youtube",
+                   "TIS"
             ],
             "date_published": "2020-04-07T09:45:32+02:00",
             "date_modified": "2020-04-09T09:33:06+02:00"
@@ -125,6 +154,7 @@
                 "name": "Marc"
             },
             "tags": [
+                   "TID"
             ],
             "date_published": "2020-04-03T08:07:24+02:00",
             "date_modified": "2020-04-09T09:31:41+02:00"
@@ -140,24 +170,12 @@
                 "name": "Marc"
             },
             "tags": [
+                   "movies",
+                   "Youtube",
+                   "TIS"
             ],
             "date_published": "2020-04-02T08:18:00+02:00",
             "date_modified": "2020-04-09T09:31:45+02:00"
-        },
-        {
-            "id": "https://wagam.github.io/tild/tid-tarantinos-reviews.html",
-            "url": "https://wagam.github.io/tild/tid-tarantinos-reviews.html",
-            "title": "TID Tarantino&#x27;s reviews (no joke)",
-            "summary": "If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You will have&hellip;",
-            "content_html": "<p>If you like Tarantino's movie as much as I like them, you may find interesting to know which movies he is watching. Thanks to a reddit post in r/movies sub, I discovered Quentin Tarantino's reviews. And they are as interesting as his movies. You  will have reviews on old obscurs movies and more recent or better known too. Long enough to have a good point of view of what he thinks about a movie, I found interesting to see himself sharing his love for them.</p>\n<p> </p>\n<p>Enjoy !</p>",
-            "image": "https://wagam.github.io/tild/media/posts/8/admission-2974645_1280.jpg",
-            "author": {
-                "name": "Marc"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-04-01T08:27:00+02:00",
-            "date_modified": "2020-04-09T09:31:50+02:00"
         }
     ]
 }
