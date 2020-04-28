@@ -3,12 +3,44 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-27T15:00:49+02:00</updated>
+    <updated>2020-04-28T09:59:59+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TIL auto fit multiple column with CSS grid</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-auto-fit-multiple-column-with-css-grid.html"/>
+        <id>https://wagam.github.io/tild/til-auto-fit-multiple-column-with-css-grid.html</id>
+            <category term="TIL"/>
+            <category term="CSS"/>
+
+        <updated>2020-04-28T09:59:53+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/19/green-1738220_1280.jpg" alt="" />
+                     If you don't knwo how may items you will have and want them to fit in a row, you can use CSS grid. It is a powerful CSS feature (with my favourite flexbox)..container { display: grid; grid-template-columns: repeat(auto-fit, 160px); justify-content: center; gap: 20px; }The tricky&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/19/green-1738220_1280.jpg" alt="" />
+                <div> If you don't knwo how may items you will have and want them to fit in a row, you can use CSS grid. It is a powerful CSS feature (with my favourite flexbox).</div>
+<pre><code>.container {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, 160px);
+ justify-content: center;
+ gap: 20px;<br>}</code></pre>
+<div>The tricky part is line 3 where you fill a column with all the items (repeat) that can fit in the screen width with 160px width each and separated with 20px gap. </div>
+<div> </div>
+<div>Enjoy!</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TIL how to reset a HTML input file</title>
         <author>
@@ -285,52 +317,6 @@
                 <p>To discover new things, a lot of web resources exist. You can use google to have informations on new trends, follow your favourite tech news blog or subscribe to RSS feed via Feedly for example. Few months ago, I discovered <a href="https://www.producthunt.com">Product Hunt</a>, where people and companies can submit their new product and the community vote everyday for the best new one. </p>
 <p>A lot of products are interesting but sometimes, only the most voted one is really interesting (we can't disrupt everything everyday, right?) That's why exists <a href="https://timemachine.betamode.dev/">Product Hunt Time Machine</a>, compiling all the <em>"most voted hunt from every day since Product Hunt records began</em>".  </p>
 <p>With this list, there is no reason to discover new things easily! </p>
-<p> </p>
-<p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TIS My favourite youtubers #1</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tid-02-04-2020-open-source-builders.html"/>
-        <id>https://wagam.github.io/tild/tid-02-04-2020-open-source-builders.html</id>
-            <category term="movies"/>
-            <category term="Youtube"/>
-            <category term="TIS"/>
-
-        <updated>2020-04-09T09:31:45+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/9/popcorn-1433327_1280.jpg" alt="" />
-                    Today, I try a new "Today I ..." possibility with a fresh new Today I Share section. I follow a lot of youtube channels for entertainement and to improve my skills. For this first TIS, I will share my favourite French entertainement channels about movies and&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/9/popcorn-1433327_1280.jpg" alt="" />
-                <p>Today, I try a new "Today I ..." possibility with a fresh new Today I Share section. </p>
-<p>I follow a lot of youtube channels for entertainement and to improve my skills. For this first TIS, I will share my favourite French entertainement channels about movies and TV shows: </p>
-<h2 id="mcetoc_1e4sp2ujb0">#1: le Fossoyeur de films</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/rxSRvg7PfOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p><a href="https://www.youtube.com/user/deadwattsofficiel">Channel</a></p>
-<h2 id="mcetoc_1e4spch8u1">#2: le ciné-club de M.bobine</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/VM7IHKhXmU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p><a href="https://www.youtube.com/channel/UCMAOGbM65D7VzbVTmpKeKgQ">Channel</a></p>
-<h2 id="mcetoc_1e4spckoj2">#3: Critique de Zoltan (critique masquée)</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/pKDkfr-v6Hs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p><a href="https://www.youtube.com/channel/UC-jROY0ULN2ANIzq4ABg5IQ">Channel</a></p>
-<h2 id="mcetoc_1e4spcnpl3">#4: Misterfox</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/M_DSyVyS75c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p><a href="https://www.youtube.com/user/TheRealMisterfox">Channel</a></p>
-<h2 id="mcetoc_1e4spcqla4">#5: Nexus VI</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/GeOKQUXhDYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p><a href="https://www.youtube.com/channel/UC8-UThnwzBI5ApzVG4MY7VQ">Channel</a></p>
-<h2 id="mcetoc_1e4spctlm5">#6: PILOTE la chronique série</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/w_Z7rBwRueU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p><a href="https://www.youtube.com/user/glitchmoviespr/featured">Channel</a></p>
 <p> </p>
 <p>Enjoy!</p>
             ]]>
