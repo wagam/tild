@@ -3,12 +3,39 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-28T09:59:59+02:00</updated>
+    <updated>2020-04-29T09:06:03+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TID eternal jukebox</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/tid-eternal-jukebox.html"/>
+        <id>https://wagam.github.io/tild/tid-eternal-jukebox.html</id>
+            <category term="TID"/>
+            <category term="Fun"/>
+
+        <updated>2020-04-29T09:05:57+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/20/djs-2010271_1280.jpg" alt="" />
+                    When you listen to music, you probably often hear patterns multiple time accros a song. And maybe sometimes, you may have think to make a loop between two similar parts of the song. Well, with Eternal jukebox, it is now possible! You can select the song&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/20/djs-2010271_1280.jpg" alt="" />
+                <p>When you listen to music, you probably often hear patterns multiple time accros a song. And maybe sometimes, you may have think to make a loop between two similar parts of the song. Well, with<a href="https://eternalbox.dev/jukebox_index.html"> Eternal jukebox</a>, it is now possible! You can select the song of your choice and apply differents filters to make this song unique and eternal. </p>
+<p>You should really try it! </p>
+<p> </p>
+<p>Enjoy!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TIL auto fit multiple column with CSS grid</title>
         <author>
@@ -290,33 +317,6 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/hJe5MDMWOaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
 <h2 id="mcetoc_1e59pjmr64">scinema</h2>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/P1VW4ZhPENA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> </p>
-<p> </p>
-<p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TID Product Hunt Time Machine</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html"/>
-        <id>https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html</id>
-            <category term="TID"/>
-
-        <updated>2020-04-09T09:31:41+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/10/car-3249989_1280.jpg" alt="" />
-                    To discover new things, a lot of web resources exist. You can use google to have informations on new trends, follow your favourite tech news blog or subscribe to RSS feed via Feedly for example. Few months ago, I discovered Product Hunt, where people and&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/10/car-3249989_1280.jpg" alt="" />
-                <p>To discover new things, a lot of web resources exist. You can use google to have informations on new trends, follow your favourite tech news blog or subscribe to RSS feed via Feedly for example. Few months ago, I discovered <a href="https://www.producthunt.com">Product Hunt</a>, where people and companies can submit their new product and the community vote everyday for the best new one. </p>
-<p>A lot of products are interesting but sometimes, only the most voted one is really interesting (we can't disrupt everything everyday, right?) That's why exists <a href="https://timemachine.betamode.dev/">Product Hunt Time Machine</a>, compiling all the <em>"most voted hunt from every day since Product Hunt records began</em>".  </p>
-<p>With this list, there is no reason to discover new things easily! </p>
 <p> </p>
 <p>Enjoy!</p>
             ]]>

@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://wagam.github.io/tild/tid-eternal-jukebox.html",
+            "url": "https://wagam.github.io/tild/tid-eternal-jukebox.html",
+            "title": "TID eternal jukebox",
+            "summary": "When you listen to music, you probably often hear patterns multiple time accros a song. And maybe sometimes, you may have think to make a loop between two similar parts of the song. Well, with Eternal jukebox, it is now possible! You can select the song&hellip;",
+            "content_html": "<p>When you listen to music, you probably often hear patterns multiple time accros a song. And maybe sometimes, you may have think to make a loop between two similar parts of the song. Well, with<a href=\"https://eternalbox.dev/jukebox_index.html\"> Eternal jukebox</a>, it is now possible! You can select the song of your choice and apply differents filters to make this song unique and eternal. </p>\n<p>You should really try it! </p>\n<p> </p>\n<p>Enjoy!</p>",
+            "image": "https://wagam.github.io/tild/media/posts/20/djs-2010271_1280.jpg",
+            "author": {
+                "name": "Marc"
+            },
+            "tags": [
+                   "TID",
+                   "Fun"
+            ],
+            "date_published": "2020-04-29T09:05:57+02:00",
+            "date_modified": "2020-04-29T09:05:57+02:00"
+        },
+        {
             "id": "https://wagam.github.io/tild/til-auto-fit-multiple-column-with-css-grid.html",
             "url": "https://wagam.github.io/tild/til-auto-fit-multiple-column-with-css-grid.html",
             "title": "TIL auto fit multiple column with CSS grid",
@@ -159,22 +176,6 @@
             ],
             "date_published": "2020-04-07T09:45:32+02:00",
             "date_modified": "2020-04-09T09:33:06+02:00"
-        },
-        {
-            "id": "https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html",
-            "url": "https://wagam.github.io/tild/tis-03-04-2020-product-hunt-time-machine.html",
-            "title": "TID Product Hunt Time Machine",
-            "summary": "To discover new things, a lot of web resources exist. You can use google to have informations on new trends, follow your favourite tech news blog or subscribe to RSS feed via Feedly for example. Few months ago, I discovered Product Hunt, where people and&hellip;",
-            "content_html": "<p>To discover new things, a lot of web resources exist. You can use google to have informations on new trends, follow your favourite tech news blog or subscribe to RSS feed via Feedly for example. Few months ago, I discovered <a href=\"https://www.producthunt.com\">Product Hunt</a>, where people and companies can submit their new product and the community vote everyday for the best new one. </p>\n<p>A lot of products are interesting but sometimes, only the most voted one is really interesting (we can't disrupt everything everyday, right?) That's why exists <a href=\"https://timemachine.betamode.dev/\">Product Hunt Time Machine</a>, compiling all the <em>\"most voted hunt from every day since Product Hunt records began</em>\".  </p>\n<p>With this list, there is no reason to discover new things easily! </p>\n<p> </p>\n<p>Enjoy!</p>",
-            "image": "https://wagam.github.io/tild/media/posts/10/car-3249989_1280.jpg",
-            "author": {
-                "name": "Marc"
-            },
-            "tags": [
-                   "TID"
-            ],
-            "date_published": "2020-04-03T08:07:24+02:00",
-            "date_modified": "2020-04-09T09:31:41+02:00"
         }
     ]
 }
