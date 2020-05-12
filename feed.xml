@@ -3,12 +3,49 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-04-29T09:06:03+02:00</updated>
+    <updated>2020-05-12T10:52:05+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TIL how to make my own codepen like</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-how-to-make-my-own-codepen-like.html"/>
+        <id>https://wagam.github.io/tild/til-how-to-make-my-own-codepen-like.html</id>
+            <category term="Web development"/>
+            <category term="TIL"/>
+
+        <updated>2020-05-12T10:52:01+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/21/dual-screen-1745705_1280.png" alt="" />
+                    To make your own codepen like, you just need to follow these instructions: &lt;body oninput="i.srcdoc=h.value+'&lt;style&gt;'+c.value+'&lt;/style&gt;&lt;script&gt;'+j.value+'&lt;/script&gt;'"&gt;&lt;style&gt;textarea,iframe{width:100%;height:50%}body{margin:0}textarea{width:33.33%;font-size:18}&lt;/style&gt;&lt;textarea placeholder=HTML id=h&gt;&lt;/textarea&gt;&lt;textarea placeholder=CSS id=c&gt;&lt;/textarea&gt;&lt;textarea placeholder=JS id=j&gt;&lt;/textarea&gt;&lt;iframe id=i&gt;&lt;/body&gt;And.. tada.. you should see womething like this: You can add your own html/CSS/JS code to test your snippets This code can be tried on&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/21/dual-screen-1745705_1280.png" alt="" />
+                <p>To make your own codepen like, you just need to follow these instructions: </p>
+<ol>
+<li>Open a website page like <a href="example.com">example.com</a></li>
+<li>Open the developper tools (right click and inspect page)</li>
+<li>On the inspect tab, richt click on the &lt;body&gt; tag and select "Modify as HTML" or similar</li>
+<li>Replace the code with </li>
+</ol>
+<pre>&lt;body oninput="i.srcdoc=h.value+'&lt;style&gt;'+c.value+'&lt;/style&gt;&lt;script&gt;'+j.value+'&lt;/script&gt;'"&gt;&lt;style&gt;textarea,iframe{width:100%;height:50%}body{margin:0}textarea{width:33.33%;font-size:18}&lt;/style&gt;&lt;textarea placeholder=HTML id=h&gt;&lt;/textarea&gt;&lt;textarea placeholder=CSS id=c&gt;&lt;/textarea&gt;&lt;textarea placeholder=JS id=j&gt;&lt;/textarea&gt;&lt;iframe id=i&gt;&lt;/body&gt;</pre>
+<p>And.. tada.. you should see womething like this:</p>
+<figure class="post__image"><img src="https://wagam.github.io/tild/media/posts/21//Capture-decran-2020-05-12-a-10.47.20.png" alt="" width="1874" height="846"></figure>
+<p>You can add your own html/CSS/JS code to test your snippets</p>
+<p>This code can be tried on any website. But it will not work if a Content Security Policy is activated. This snippet is very basic but does the job :)</p>
+<p> </p>
+<p>Enjoy!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TID eternal jukebox</title>
         <author>
@@ -281,42 +318,6 @@
                     <img src="https://wagam.github.io/tild/media/posts/12/green-1738220_1280.jpg" alt="" />
                 <p>When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found <a href="https://coolers.co">Coolers</a>. You can create your own palette or choose one created by the community. You can filter these palettes by name, by popularity and more. </p>
 <p>I like this generator because it is an easy tool to use with infinite possibilities for your newt website or blog or design project.</p>
-<p> </p>
-<p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TIS My favourite youtubers #2</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html"/>
-        <id>https://wagam.github.io/tild/tis-04-02-2020-my-favourite-youtubers-2.html</id>
-            <category term="Youtube"/>
-            <category term="TIS"/>
-
-        <updated>2020-04-09T09:33:06+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/11/milky-way-1023340_1280.jpg" alt="" />
-                    Today a new list of my favourite youtubers. Last time, I shared a list about movies and TV shows. This time, it is about science: Enjoy!
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/11/milky-way-1023340_1280.jpg" alt="" />
-                <p>Today a new list of my favourite youtubers. Last time, I shared a list about movies and TV shows. This time, it is about science: </p>
-<h2 id="mcetoc_1e59pj6v40">Astronogeek</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/k96FXjEQXK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> </p>
-<h2 id="mcetoc_1e59pj9gb1">Computerphile</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/89A4jGvaaKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> </p>
-<h2 id="mcetoc_1e59pjdhl2">dirtyBiology</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/bM7AOBxqjnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<h2 id="mcetoc_1e59pjk9v3">e-penser</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/hJe5MDMWOaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<h2 id="mcetoc_1e59pjmr64">scinema</h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/P1VW4ZhPENA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> </p>
 <p> </p>
 <p>Enjoy!</p>
             ]]>
