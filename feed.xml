@@ -3,12 +3,83 @@
     <title>Tild</title>
     <link href="https://wagam.github.io/tild/feed.xml" rel="self" />
     <link href="https://wagam.github.io/tild" />
-    <updated>2020-05-12T11:00:20+02:00</updated>
+    <updated>2020-05-28T09:09:08+02:00</updated>
     <author>
         <name>Marc</name>
     </author>
     <id>https://wagam.github.io/tild</id>
 
+    <entry>
+        <title>TIL how to add dependencies with Ansible and Semaphore</title>
+        <author>
+            <name>Marc</name>
+        </author>
+        <link href="https://wagam.github.io/tild/til-how-to-add-dependencies-with-ansible-and-semaphore.html"/>
+        <id>https://wagam.github.io/tild/til-how-to-add-dependencies-with-ansible-and-semaphore.html</id>
+
+        <updated>2020-05-28T09:08:55+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://wagam.github.io/tild/media/posts/22/chevrolet-4254343_1280.jpg" alt="" />
+                    For a work project, I had to use pupeeter to generate pdf file from a web page. On local, installing puppeteer was simple, foloowing the installation guide and installing the correct chromium version. But when the new feature arrived on the development server, the chromium did&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://wagam.github.io/tild/media/posts/22/chevrolet-4254343_1280.jpg" alt="" />
+                <p>For a work project, I had to use pupeeter to generate pdf file from a web page. </p>
+<p>On local, installing puppeteer was simple, foloowing the installation guide and installing the correct chromium version. </p>
+<p>But when the new feature arrived on the development server, the chromium did not started because of this message: </p>
+<figure class="post__image"><img src="https://wagam.github.io/tild/media/posts/22/Capture-decran-2020-05-27-a-16.18.47.png" alt="" width="2451" height="934"></figure>
+<p class="post__lead msg msg--highlight ">Error while loading libXComposite.so</p>
+<p>A good start point is the following line : </p>
+<p class="msg--highlight msg ">TROUBLESHOOTING: <a href="https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md">https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md</a></p>
+<p>By following the link, I concluded I need to install missing deps like <code>libXComposite.so</code></p>
+<p>I use Semaphore for the CI with Ansible and AWS. </p>
+<p>I did not know what was the OS installed on AWS so I supposed it was a ubuntu or a debian one. So I tried to add this dependencies following this guide:  <a target="_blank" class="c-link" delay="150"  aria-describedby="sk-tooltip-ccfbf4a6-74ed-4a4d-98ab-b815773f48b9" href="https://semaphoreci.com/community/tutorials/introduction-to-ansible" rel="noopener noreferrer">https://semaphoreci.com/community/tutorials/introduction-to-ansible</a></p>
+<p> The interesting part was here :</p>
+<pre>- <span class="pl-ent">name</span>: <span class="pl-s">Install nginx</span>
+      <span class="pl-ent">apt</span>:
+        <span class="pl-c"># This package should be installed</span>
+        <span class="pl-ent">state</span>: <span class="pl-s">present</span>
+        <span class="pl-ent">name</span>: <span class="pl-s">nginx</span>
+        <span class="pl-c"># 5 hours in seconds</span>
+        <span class="pl-ent">cache_valid_time</span>: <span class="pl-c1">18000</span>
+      <span class="pl-ent">become</span>: <span class="pl-c1">true</span>
+<span class="pl-s"><span class="pl-pds"><br></span></span></pre>
+<p>I decided to follow this part and I copy/pasted this code and replaced nginx (line 10)  by libXComposite. </p>
+<p>But it was not correct. Ansible displayed an error with this message: </p>
+<table id="log-table" class="c-job-code-block c-job-wrap-lines">
+<tbody>
+<tr class="c-job-output" >
+<td class="output"><span class="green">amazon-ebs: [WARNING]: Updating cache and auto-installing missing dependency: python-apt</span></td>
+</tr>
+</tbody>
+</table>
+<p>I thought I needed to install python-apt too. So I added python-apt </p>
+<pre>- <span class="pl-ent">name</span>: <span class="pl-s">Install missing chromium deps</span>
+      <span class="pl-ent">apt</span>:
+        <span class="pl-c"># This package should be installed</span>
+        <span class="pl-ent">state</span>: <span class="pl-s">present</span>
+        <span class="pl-ent">name</span>: [python-apt, libxcomposite<span class="pl-s">]</span>
+        <span class="pl-c"># 5 hours in seconds</span>
+        <span class="pl-ent">cache_valid_time</span>: <span class="pl-c1">18000</span>
+      <span class="pl-ent">become</span>: <span class="pl-c1">true</span>
+<span class="pl-s"><span class="pl-pds"><br></span></span></pre>
+<p>I still has errors: </p>
+<p class="msg--highlight msg "><span class="green">fatal: [default]: FAILED! =&gt; {"changed": false, "msg": "Unsupported parameters for (apt) module: become Supported parameters include: allow_unauthenticated, autoclean, autoremove, cache_valid_time, deb, default_release, dpkg_options, force, force_apt_get, install_recommends, only_upgrade, package, policy_rc_d, purge, state, update_cache, upgrade"}</span></p>
+<p>As I said earlier, I supposed I was running on a Ubuntu or debian machine. But it wasn't. It was a CentOS one. So I just change few lines of code : </p>
+<div>
+<pre><code>- name: install chromium deps for puppeteer</code><br><code> yum:</code><br><code>  name:</code><br><code>  - libXcomposite.x86_64</code><br><code> state: present</code></pre>
+And it works! </div>
+<div> </div>
+<div>What I learned this day is finally simple. Please be sure on which OS you work before doing anything. </div>
+<div> </div>
+<div>Enjoy!</div>
+<div> </div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TIL how to make my own codepen like</title>
         <author>
@@ -291,34 +362,6 @@
 <pre>Automatically rearrange Spaces based on most recent use.</pre>
 <p><img src="https://wagam.github.io/tild/media/posts/13/Capture-decran-2020-04-09-a-09.28.20.png" alt="" width="1582" height="982"></p>
 <p>Thanks to <a href="https://apple.stackexchange.com/a/214349">Tetsujin </a></p>
-<p>Enjoy!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TID Coolers</title>
-        <author>
-            <name>Marc</name>
-        </author>
-        <link href="https://wagam.github.io/tild/tid-08-02-2020-coolers.html"/>
-        <id>https://wagam.github.io/tild/tid-08-02-2020-coolers.html</id>
-            <category term="Webdesign"/>
-            <category term="UI"/>
-            <category term="TID"/>
-
-        <updated>2020-04-09T09:33:39+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://wagam.github.io/tild/media/posts/12/green-1738220_1280.jpg" alt="" />
-                    When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found Coolers. You can create your own&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://wagam.github.io/tild/media/posts/12/green-1738220_1280.jpg" alt="" />
-                <p>When you need ideas to design your website or to find color that can match together, you can use your imagination or various tools. I recently need a good palette generator to update colors in a website and I found <a href="https://coolers.co">Coolers</a>. You can create your own palette or choose one created by the community. You can filter these palettes by name, by popularity and more. </p>
-<p>I like this generator because it is an easy tool to use with infinite possibilities for your newt website or blog or design project.</p>
-<p> </p>
 <p>Enjoy!</p>
             ]]>
         </content>

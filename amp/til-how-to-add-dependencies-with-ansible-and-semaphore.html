@@ -1,20 +1,4 @@
-<!doctype html>
-<html amp lang="fr">
-<head>
-    <meta charset="utf-8">
-    <title>TIL how to make my own codepen like - Tild </title>
-    <meta name="description" content="To make your own codepen like, you just need to follow these instructions: &lt;body oninput="i.srcdoc=h.value+'&lt;style&gt;'+c.value+'&lt;/style&gt;&lt;script&gt;'+j.value+'&lt;/script&gt;'"&gt;&lt;style&gt;textarea,iframe{width:100%;height:50%}body{margin:0}textarea{width:33.33%;font-size:18}&lt;/style&gt;&lt;textarea placeholder=HTML id=h&gt;&lt;/textarea&gt;&lt;textarea placeholder=CSS id=c&gt;&lt;/textarea&gt;&lt;textarea placeholder=JS id=j&gt;&lt;/textarea&gt;&lt;iframe id=i&gt;&lt;/iframe&gt;&lt;/body&gt;And.. tada.. you should see womething like this: You can add your own html/CSS/JS code to test your snippets This code can be tried on&hellip;" />
-    
-    <link rel="canonical" href="https://wagam.github.io/tild/til-how-to-make-my-own-codepen-like.html">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" type="text/css">
-    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://wagam.github.io/tild/amp/til-how-to-make-my-own-codepen-like.html"},"headline":"TIL how to make my own codepen like","datePublished":"2020-05-12T10:51","dateModified":"2020-05-12T11:00","image":{"@type":"ImageObject","url":"https://wagam.github.io/tild/media/posts/21/dual-screen-1745705_1280.png","height":852,"width":1280},"description":"To make your own codepen like, you just need to follow these instructions: &lt;body oninput=\"i.srcdoc=h.value+'&lt;style&gt;'+c.value+'&lt;/style&gt;&lt;script&gt;'+j.value+'&lt;/script&gt;'\"&gt;&lt;style&gt;textarea,iframe{width:100%;height:50%}body{margin:0}textarea{width:33.33%;font-size:18}&lt;/style&gt;&lt;textarea placeholder=HTML id=h&gt;&lt;/textarea&gt;&lt;textarea placeholder=CSS id=c&gt;&lt;/textarea&gt;&lt;textarea placeholder=JS id=j&gt;&lt;/textarea&gt;&lt;iframe id=i&gt;&lt;/iframe&gt;&lt;/body&gt;And.. tada.. you should see womething like this: You can add your own html/CSS/JS code to test your snippets This code can be tried on&hellip;","author":{"@type":"Person","name":"Marc"},"publisher":{"@type":"Organization","name":"Marc"}}</script>
-    <style amp-custom>
-article,
+<!doctype html><html amp lang="fr"><head><meta charset="utf-8"><title>TIL how to add dependencies with Ansible and Semaphore - Tild</title><meta name="description" content="For a work project, I had to use pupeeter to generate pdf file from a web page. On local, installing puppeteer was simple, foloowing the installation guide and installing the correct chromium version. But when the new feature arrived on the development server, the chromium did&hellip;"><link rel="canonical" href="https://wagam.github.io/tild/til-how-to-add-dependencies-with-ansible-and-semaphore.html"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://wagam.github.io/tild/amp/til-how-to-add-dependencies-with-ansible-and-semaphore.html"},"headline":"TIL how to add dependencies with Ansible and Semaphore","datePublished":"2020-05-28T09:08","dateModified":"2020-05-28T09:08","image":{"@type":"ImageObject","url":"https://wagam.github.io/tild/media/posts/22/chevrolet-4254343_1280.jpg","height":761,"width":1280},"description":"For a work project, I had to use pupeeter to generate pdf file from a web page. On local, installing puppeteer was simple, foloowing the installation guide and installing the correct chromium version. But when the new feature arrived on the development server, the chromium did&hellip;","author":{"@type":"Person","name":"Marc"},"publisher":{"@type":"Organization","name":"Marc"}}</script><style amp-custom>article,
 aside,
 footer,
 header,
@@ -573,150 +557,23 @@ aside {
 
     /*
  * Put your custom CSS code here (it will be used only in the AMP mode)
- */
-    </style>
-<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script>
-    <script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script>
-
-    
-</head>
-
-<body class="bg-white">
-    <nav class="navbar wrap-inner" id="top">
-        <div>
-            <a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a>
-                <a class="logo logo-text" href="https://wagam.github.io/tild/amp/">
-                Tild
-            </a>
-        </div>
-    </nav>
-
-    <main class="wrap-page">
-        <article class="post">
-            
-                <figure class="post-featured-image">
-                    <amp-img
-                        src="https://wagam.github.io/tild/media/posts/21/dual-screen-1745705_1280.png"
-                        alt=""
-                            srcset="https://wagam.github.io/tild/media/posts/21/responsive/dual-screen-1745705_1280-xs.png 300w ,https://wagam.github.io/tild/media/posts/21/responsive/dual-screen-1745705_1280-sm.png 480w ,https://wagam.github.io/tild/media/posts/21/responsive/dual-screen-1745705_1280-md.png 768w"
-                            sizes="(max-width: 768px) 100vw, 768px"
-                        height="852"
-                        layout="responsive"
-                        width="1280">
-                    </amp-img>
-                    </figure>
-            
-             <div class="wrap-inner">
-                <header class="post-header">
-                    <h1>
-                        TIL how to make my own codepen like
-                    </h1>
-                        <p class="post-meta">
-                                    By
-                                    <a href="https://wagam.github.io/tild/amp/authors/marc/" rel="nofollow" title="Marc">Marc</a>
-                                <time datetime="2020-05-12T10:51">
-                                    12 mai 2020
-                                </time>
-                        </p>
-                </header>
-
-                <p>To make your own codepen like, you just need to follow these instructions: </p>
-<ol>
-<li>Open a website page like <a href="example.com">example.com</a></li>
-<li>Open the developper tools (right click and inspect page)</li>
-<li>On the inspect tab, richt click on the &lt;body&gt; tag and select "Modify as HTML" or similar</li>
-<li>Replace the code with </li>
-</ol>
-<pre>&lt;body oninput="i.srcdoc=h.value+'&lt;style&gt;'+c.value+'&lt;/style&gt;&lt;script&gt;'+j.value+'&lt;/script&gt;'"&gt;&lt;style&gt;textarea,iframe{width:100%;height:50%}body{margin:0}textarea{width:33.33%;font-size:18}&lt;/style&gt;&lt;textarea placeholder=HTML id=h&gt;&lt;/textarea&gt;&lt;textarea placeholder=CSS id=c&gt;&lt;/textarea&gt;&lt;textarea placeholder=JS id=j&gt;&lt;/textarea&gt;&lt;iframe id=i&gt;&lt;/iframe&gt;&lt;/body&gt;</pre>
-<p>And.. tada.. you should see womething like this:</p>
-<figure class="post__image"><amp-img src="https://wagam.github.io/tild/media/posts/21//Capture-decran-2020-05-12-a-10.47.20.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://wagam.github.io/tild/media/posts/21//responsive/Capture-decran-2020-05-12-a-10.47.20-xs.png 300w ,https://wagam.github.io/tild/media/posts/21//responsive/Capture-decran-2020-05-12-a-10.47.20-sm.png 480w ,https://wagam.github.io/tild/media/posts/21//responsive/Capture-decran-2020-05-12-a-10.47.20-md.png 768w ,https://wagam.github.io/tild/media/posts/21//responsive/Capture-decran-2020-05-12-a-10.47.20-lg.png 1024w ,https://wagam.github.io/tild/media/posts/21//responsive/Capture-decran-2020-05-12-a-10.47.20-xl.png 1360w ,https://wagam.github.io/tild/media/posts/21//responsive/Capture-decran-2020-05-12-a-10.47.20-2xl.png 1600w"  alt="" width="1874" height="846" layout="responsive"></amp-img></figure>
-<p>You can add your own html/CSS/JS code to test your snippets</p>
-<p>This code can be tried on any website. But it will not work if a Content Security Policy is activated. This snippet is very basic but does the job :)</p>
-<p> </p>
-<p>Enjoy!</p>
-                 
-                    <aside>
-                                <ul class="post-tag">                   
-                                       <li>
-                                           <a href="https://wagam.github.io/tild/amp/til/">TIL</a>
-                                        </li>
-                                       <li>
-                                           <a href="https://wagam.github.io/tild/amp/web_development/">Web development</a>
-                                        </li>
-                                </ul>
-                   
-                            <div class="post-share">
-                                     <amp-social-share
-                                             type="system"
-                                             width="40"
-                                             height="40"
-                                             data-param-text="TIL how to make my own codepen like">
-                                     </amp-social-share>
-                                 
-                                     <amp-social-share
-                                             type="facebook"
-                                             width="40"
-                                             height="40"
-                                             data-param-app_id=""
-                                             data-param-text="TIL how to make my own codepen like"
-                                             data-param-href="https://wagam.github.io/tild/amp/til-how-to-make-my-own-codepen-like.html">
-                                     </amp-social-share>
-                                 
-                                     <amp-social-share
-                                             type="twitter"
-                                             width="40"
-                                             height="40"
-                                             data-param-text="TIL how to make my own codepen like"
-                                             data-param-url="https://wagam.github.io/tild/amp/til-how-to-make-my-own-codepen-like.html">
-                                     </amp-social-share>
-                                 
-                                     <amp-social-share
-                                             type="pinterest"
-                                             width="40"
-                                             height="40"
-                                             data-param-url="https://wagam.github.io/tild/amp/til-how-to-make-my-own-codepen-like.html">
-                                     </amp-social-share>
-                                 
-                                 
-                                     <amp-social-share
-                                             type="tumblr"
-                                             width="40"
-                                             height="40"
-                                             data-param-text="TIL how to make my own codepen like"
-                                             data-param-url="https://wagam.github.io/tild/amp/til-how-to-make-my-own-codepen-like.html">
-                                     </amp-social-share>
-                                 
-                                     <amp-social-share
-                                             type="whatsapp"
-                                             width="40"
-                                             height="40"
-                                             data-param-text="TIL how to make my own codepen like">
-                                     </amp-social-share>
-                            </div>                  
-                    </aside>
-             
-            </div>
-        </article>
-        
-            <nav class="post-pagination wrap-inner">
-                    <div class="post-pagination-prev">               
-                        <span>Previous Post</span>
-                        <a href="https://wagam.github.io/tild/amp/tid-eternal-jukebox.html">TID eternal jukebox</a>               
-                    </div>
-
-                    <div class="post-pagination-next">
-                        <span>Next Post</span>
-                        <a href="https://wagam.github.io/tild/amp/til-how-to-add-dependencies-with-ansible-and-semaphore.html">TIL how to add dependencies with Ansible and Semaphore</a>              
-                    </div>
-            </nav>
-       
-       
-    </main>
-<amp-animation id="showAnim" layout="nodisplay">
-        <script type="application/json">
-                {
+ */</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo logo-text" href="https://wagam.github.io/tild/amp/">Tild</a></div></nav><main class="wrap-page"><article class="post"><figure class="post-featured-image"><amp-img src="https://wagam.github.io/tild/media/posts/22/chevrolet-4254343_1280.jpg" alt="" srcset="https://wagam.github.io/tild/media/posts/22/responsive/chevrolet-4254343_1280-xs.jpg 300w ,https://wagam.github.io/tild/media/posts/22/responsive/chevrolet-4254343_1280-sm.jpg 480w ,https://wagam.github.io/tild/media/posts/22/responsive/chevrolet-4254343_1280-md.jpg 768w" sizes="(max-width: 768px) 100vw, 768px" height="761" layout="responsive" width="1280"></amp-img><figcaption>Chromium Chevelle Image by Berat Hacioglu from Pixabay</figcaption></figure><div class="wrap-inner"><header class="post-header"><h1>TIL how to add dependencies with Ansible and Semaphore</h1><p class="post-meta">By <a href="https://wagam.github.io/tild/amp/authors/marc/" rel="nofollow" title="Marc">Marc</a> <time datetime="2020-05-28T09:08">28 mai 2020</time></p></header><p>For a work project, I had to use pupeeter to generate pdf file from a web page. </p><p>On local, installing puppeteer was simple, foloowing the installation guide and installing the correct chromium version. </p><p>But when the new feature arrived on the development server, the chromium did not started because of this message: </p><figure class="post__image"><amp-img src="https://wagam.github.io/tild/media/posts/22/Capture-decran-2020-05-27-a-16.18.47.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://wagam.github.io/tild/media/posts/22/responsive/Capture-decran-2020-05-27-a-16.18.47-xs.png 300w ,https://wagam.github.io/tild/media/posts/22/responsive/Capture-decran-2020-05-27-a-16.18.47-sm.png 480w ,https://wagam.github.io/tild/media/posts/22/responsive/Capture-decran-2020-05-27-a-16.18.47-md.png 768w ,https://wagam.github.io/tild/media/posts/22/responsive/Capture-decran-2020-05-27-a-16.18.47-lg.png 1024w ,https://wagam.github.io/tild/media/posts/22/responsive/Capture-decran-2020-05-27-a-16.18.47-xl.png 1360w ,https://wagam.github.io/tild/media/posts/22/responsive/Capture-decran-2020-05-27-a-16.18.47-2xl.png 1600w" alt="" width="2451" height="934" layout="responsive"></amp-img></figure><p class="post__lead msg msg--highlight">Error while loading libXComposite.so</p><p>A good start point is the following line : </p><p class="msg--highlight msg">TROUBLESHOOTING: <a href="https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md">https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md</a></p><p>By following the link, I concluded I need to install missing deps like <code>libXComposite.so</code></p><p>I use Semaphore for the CI with Ansible and AWS. </p><p>I did not know what was the OS installed on AWS so I supposed it was a ubuntu or a debian one. So I tried to add this dependencies following this guide:  <a target="_blank" class="c-link" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-ccfbf4a6-74ed-4a4d-98ab-b815773f48b9" href="https://semaphoreci.com/community/tutorials/introduction-to-ansible" rel="noopener noreferrer">https://semaphoreci.com/community/tutorials/introduction-to-ansible</a></p><p> The interesting part was here :</p><pre>- <span class="pl-ent">name</span>: <span class="pl-s">Install nginx</span>
+      <span class="pl-ent">apt</span>:
+        <span class="pl-c"># This package should be installed</span>
+        <span class="pl-ent">state</span>: <span class="pl-s">present</span>
+        <span class="pl-ent">name</span>: <span class="pl-s">nginx</span>
+        <span class="pl-c"># 5 hours in seconds</span>
+        <span class="pl-ent">cache_valid_time</span>: <span class="pl-c1">18000</span>
+      <span class="pl-ent">become</span>: <span class="pl-c1">true</span>
+<span class="pl-s"><span class="pl-pds"><br></span></span></pre><p>I decided to follow this part and I copy/pasted this code and replaced nginx (line 10)  by libXComposite. </p><p>But it was not correct. Ansible displayed an error with this message: </p><table id="log-table" class="c-job-code-block c-job-wrap-lines"><tbody><tr class="c-job-output" data-command-number="e7f0059f-7d94-4c0a-8b2e-c0401da34630"><td class="output"><span class="green">amazon-ebs: [WARNING]: Updating cache and auto-installing missing dependency: python-apt</span></td></tr></tbody></table><p>I thought I needed to install python-apt too. So I added python-apt </p><pre>- <span class="pl-ent">name</span>: <span class="pl-s">Install missing chromium deps</span>
+      <span class="pl-ent">apt</span>:
+        <span class="pl-c"># This package should be installed</span>
+        <span class="pl-ent">state</span>: <span class="pl-s">present</span>
+        <span class="pl-ent">name</span>: [python-apt, libxcomposite<span class="pl-s">]</span>
+        <span class="pl-c"># 5 hours in seconds</span>
+        <span class="pl-ent">cache_valid_time</span>: <span class="pl-c1">18000</span>
+      <span class="pl-ent">become</span>: <span class="pl-c1">true</span>
+<span class="pl-s"><span class="pl-pds"><br></span></span></pre><p>I still has errors: </p><p class="msg--highlight msg"><span class="green">fatal: [default]: FAILED! =&gt; {"changed": false, "msg": "Unsupported parameters for (apt) module: become Supported parameters include: allow_unauthenticated, autoclean, autoremove, cache_valid_time, deb, default_release, dpkg_options, force, force_apt_get, install_recommends, only_upgrade, package, policy_rc_d, purge, state, update_cache, upgrade"}</span></p><p>As I said earlier, I supposed I was running on a Ubuntu or debian machine. But it wasn't. It was a CentOS one. So I just change few lines of code : </p><div><pre><code>- name: install chromium deps for puppeteer</code><br><code> yum:</code><br><code>  name:</code><br><code>  - libXcomposite.x86_64</code><br><code> state: present</code></pre>And it works! </div><div> </div><div>What I learned this day is finally simple. Please be sure on which OS you work before doing anything. </div><div> </div><div>Enjoy!</div><div> </div><aside><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="TIL how to add dependencies with Ansible and Semaphore"></amp-social-share><amp-social-share type="facebook" width="40" height="40" data-param-app_id="" data-param-text="TIL how to add dependencies with Ansible and Semaphore" data-param-href="https://wagam.github.io/tild/amp/til-how-to-add-dependencies-with-ansible-and-semaphore.html"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="TIL how to add dependencies with Ansible and Semaphore" data-param-url="https://wagam.github.io/tild/amp/til-how-to-add-dependencies-with-ansible-and-semaphore.html"></amp-social-share><amp-social-share type="pinterest" width="40" height="40" data-param-url="https://wagam.github.io/tild/amp/til-how-to-add-dependencies-with-ansible-and-semaphore.html"></amp-social-share><amp-social-share type="tumblr" width="40" height="40" data-param-text="TIL how to add dependencies with Ansible and Semaphore" data-param-url="https://wagam.github.io/tild/amp/til-how-to-add-dependencies-with-ansible-and-semaphore.html"></amp-social-share><amp-social-share type="whatsapp" width="40" height="40" data-param-text="TIL how to add dependencies with Ansible and Semaphore"></amp-social-share></div></aside></div></article><nav class="post-pagination wrap-inner"><div class="post-pagination-prev"><span>Previous Post</span> <a href="https://wagam.github.io/tild/amp/til-how-to-make-my-own-codepen-like.html">TIL how to make my own codepen like</a></div></nav></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{
                     "duration": "200ms",
                     "fill": "both",
                     "iterations": "1",
@@ -729,13 +586,7 @@ aside {
                             "transform": "scale(1)"
                         }]
                     }]
-                }
-
-        </script>
-</amp-animation>
-<amp-animation id="hideAnim" layout="nodisplay">
-        <script type="application/json">
-                {
+                }</script></amp-animation><amp-animation id="hideAnim" layout="nodisplay"><script type="application/json">{
                     "duration": "200ms",
                     "fill": "both",
                     "iterations": "1",
@@ -748,24 +599,4 @@ aside {
                             "transform": "scale(0.1)"
                         }]
                     }]
-                }
-
-            </script>
-</amp-animation>
-<div class="post-scroll-marker">
-     <amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay">
-     </amp-position-observer>
-</div>        
-<button class="post-scroll" on="tap:top.scrollTo(duration=200)" >&#8593;</button>
-
-<footer class="bottom">Powered by Publii</footer>
-<amp-sidebar id="navbar-sidebar" layout="nodisplay">
-     <ul>
-    </ul>
-</amp-sidebar>
-
-
-
-
-</body>
-</html>
+                }</script></amp-animation><div class="post-scroll-marker"><amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay"></amp-position-observer></div><button class="post-scroll" on="tap:top.scrollTo(duration=200)">&#8593;</button><footer class="bottom">Powered by Publii</footer><amp-sidebar id="navbar-sidebar" layout="nodisplay"><ul></ul></amp-sidebar></body></html>
